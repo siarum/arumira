@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>地方競馬AI 予想</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
+<style>
+:root {
+  --bg: #0f1117;
+  --bg2: #1a1d27;
+  --bg3: #22263a;
+  --border: rgba(255,255,255,0.08);
+  --text: #e8eaf0;
+  --text2: #8b90a8;
+  --blue: #4f8ef7;
+  --green: #2dd4a0;
+  --amber: #f5a623;
+  --red: #f25f5c;
+  --purple: #9b7ff4;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { background: var(--bg); color: var(--text); font-family: -apple-system, BlinkMacSystemFont, 'Hiragino Sans', sans-serif; font-size: 14px; }
+header { background: var(--bg2); border-bottom: 1px solid var(--border); padding: 12px 16px; position: sticky; top: 0; z-index: 100; display: flex; align-items: center; justify-content: space-between; }
+header h1 { font-size: 16px; font-weight: 600; }
+.badge { font-size: 11px; padding: 3px 8px; border-radius: 20px; background: rgba(79,142,247,0.2); color: var(--blue); }
+.tabs { display: flex; gap: 4px; padding: 12px 16px 0; border-bottom: 1px solid var(--border); overflow-x: auto; }
+.tab { padding: 8px 16px; border-radius: 8px 8px 0 0; font-size: 13px; cursor: pointer; white-space: nowrap; color: var(--text2); transition: all 0.2s; border: none; background: none; }
+.tab.active { background: var(--bg2); color: var(--text); border: 1px solid var(--border); border-bottom: 1px solid var(--bg2); }
+.content { padding: 16px; }
+.card { background: var(--bg2); border: 1px solid var(--border); border-radius: 12px; padding: 16px; margin-bottom: 12px; }
+.card-title { font-size: 13px; font-weight: 600; color: var(--text2); margin-bottom: 12px; text-transform: uppercase; letter-spacing: 0.5px; }
+.metrics { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; margin-bottom: 12px; }
+.metric { background: var(--bg3); border-radius: 10px; padding: 12px; text-align: center; }
+.metric-label { font-size: 11px; color: var(--text2); margin-bottom: 4px; }
+.metric-value { font-size: 22px; font-weight: 700; }
+.horse-row { display: flex; align-items: center; gap: 10px; padding: 10px 0; border-bottom: 1px solid var(--border); }
+.horse-row:last-child { border-bottom: none; }
+.rank-badge { font-size: 11px; font-weight: 700; padding: 3px 8px; border-radius: 6px; min-width: 44px; text-align: center; flex-shrink: 0; }
+.rank-1 { background: rgba(245,166,35,0.2); color: var(--amber); }
+.rank-2 { background: rgba(79,142,247,0.2); color: var(--blue); }
+.rank-3 { background: rgba(45,212,160,0.2); color: var(--green); }
+.rank-other { background: rgba(139,144,168,0.15); color: var(--text2); }
+.horse-name { flex: 1; font-weight: 600; font-size: 14px; }
+.horse-sub { font-size: 11px; color: var(--text2); }
+.score-bar-wrap { width: 80px; flex-shrink: 0; }
+.score-bar-bg { background: var(--bg3); border-radius: 4px; height: 6px; overflow: hidden; }
+.score-bar-fill { height: 6px; border-radius: 4px; transition: width 0.6s ease; }
+.score-num { font-size: 13px; font-weight: 700; text-align: right; margin-top: 3px; }
+.odds { font-size: 12px; color: var(--text2); min-width: 50px; text-align: right; flex-shrink: 0; }
+.model-compare { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
+.model-card { background: var(--bg3); border-radius: 10px; padding: 12px; text-align: center; border: 1px solid var(--border); }
+.model-card.active { border-color: var(--blue); }
+.model-name { font-size: 11px; color: var(--text2); margin-bottom: 6px; }
+.model-acc { font-size: 20px; font-weight: 700; }
+.model-sub { font-size: 11px; color: var(--text2); margin-top: 2px; }
+.venue-tabs { display: flex; gap: 6px; overflow-x: auto; padding-bottom: 8px; margin-bottom: 12px; }
+.venue-btn { padding: 6px 12px; border-radius: 20px; font-size: 12px; border: 1px solid var(--border); background: none; color: var(--text2); cursor: pointer; white-space: nowrap; }
+.venue-btn.active { background: var(--blue); color: #fff; border-color: var(--blue); }
+.race-list { display: flex; flex-direction: column; gap: 8px; }
+.race-card { background: var(--bg3); border-radius: 10px; padding: 12px; cursor: pointer; border: 1px solid transparent; transition: border-color 0.2s; }
+.race-card:active { border-color: var(--blue); }
+.race-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px; }
+.race-title { font-size: 13px; font-weight: 600; }
+.race-time { font-size: 11px; color: var(--text2); }
+.race-top3 { display: flex; gap: 6px; }
+.horse-pill { font-size: 11px; padding: 3px 8px; border-radius: 6px; background: rgba(255,255,255,0.06); }
+.horse-pill.p1 { background: rgba(245,166,35,0.15); color: var(--amber); }
+.horse-pill.p2 { background: rgba(79,142,247,0.12); color: var(--blue); }
+.horse-pill.p3 { background: rgba(45,212,160,0.12); color: var(--green); }
+.detail-overlay { display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.7); z-index: 200; overflow-y: auto; padding: 16px; }
+.detail-overlay.open { display: block; }
+.detail-card { background: var(--bg2); border-radius: 16px; padding: 16px; max-width: 480px; margin: 0 auto; }
+.detail-close { float: right; background: none; border: none; color: var(--text2); font-size: 20px; cursor: pointer; }
+.flow-row { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 10px; }
+.flow-tag { font-size: 11px; padding: 4px 10px; border-radius: 6px; background: var(--bg3); }
+.flow-arrow { color: var(--text2); align-self: center; font-size: 14px; }
+.updated { font-size: 11px; color: var(--text2); text-align: center; padding: 16px; }
+.empty { text-align: center; padding: 40px 16px; color: var(--text2); }
+.model-tab-btns { display: flex; gap: 6px; margin-bottom: 12px; }
+.model-tab-btn { padding: 6px 12px; border-radius: 20px; font-size: 12px; border: 1px solid var(--border); background: none; color: var(--text2); cursor: pointer; }
+.model-tab-btn.active { background: rgba(79,142,247,0.2); color: var(--blue); border-color: var(--blue); }
+.chart-wrap { position: relative; width: 100%; height: 200px; }
+.ana-badge { font-size: 10px; padding: 2px 6px; border-radius: 4px; margin-left: 4px; }
+.ana-ana { background: rgba(155,127,244,0.2); color: var(--purple); }
+.hole-badge { font-size: 10px; padding: 2px 6px; border-radius: 4px; background: rgba(242,95,92,0.2); color: var(--red); margin-left: 4px; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>🏇 地方競馬AI</h1>
+  <span class="badge" id="update-badge">読込中...</span>
+</header>
+
+<div class="tabs">
+  <button class="tab active" onclick="switchTab('races')">レース予想</button>
+  <button class="tab" onclick="switchTab('models')">モデル比較</button>
+</div>
+
+<div class="content">
+
+<div id="tab-races">
+  <div class="venue-tabs" id="venue-tabs"></div>
+  <div class="race-list" id="race-list"></div>
+</div>
+
+<div id="tab-models" style="display:none;">
+  <div class="card">
+    <div class="card-title">1位的中率</div>
+    <div class="model-compare">
+      <div class="model-card">
+        <div class="model-name">旧モデル</div>
+        <div class="model-acc" style="color:var(--text2);">21.3%</div>
+        <div class="model-sub">3着内 50.1%</div>
+      </div>
+      <div class="model-card">
+        <div class="model-name">改良B<br>AI独自</div>
+        <div class="model-acc" style="color:var(--blue);">35.7%</div>
+        <div class="model-sub">3着内 67.6%</div>
+      </div>
+      <div class="model-card active">
+        <div class="model-name">改良A<br>人気あり</div>
+        <div class="model-acc" style="color:var(--green);">45.8%</div>
+        <div class="model-sub">3着内 77.5%</div>
+      </div>
+    </div>
+    <div class="chart-wrap" style="height:180px;margin-top:12px;">
+      <canvas id="model-chart" role="img" aria-label="モデル比較グラフ"></canvas>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-title">モデル別比較</div>
+    <div class="model-tab-btns">
+      <button class="model-tab-btn active" onclick="switchModelView('top1')">1位的中率</button>
+      <button class="model-tab-btn" onclick="switchModelView('in3')">3着内率</button>
+    </div>
+    <div class="chart-wrap">
+      <canvas id="detail-chart" role="img" aria-label="詳細比較グラフ"></canvas>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-title">特徴量重要度 Top10（改良B）</div>
+    <div class="chart-wrap" style="height:280px;">
+      <canvas id="feat-chart" role="img" aria-label="特徴量重要度グラフ"></canvas>
+    </div>
+  </div>
+
+  <div class="card" style="border-color:rgba(79,142,247,0.4);">
+    <div class="card-title" style="color:var(--blue);">現在稼働中: 改良Bモデル</div>
+    <p style="font-size:13px;color:var(--text2);line-height:1.7;">人気に依存しないAI独自予測。穴馬発見に特化した改良Bを採用。1番人気と同精度の改良Aより独自性が高く、高配当狙いに最適。</p>
+  </div>
+</div>
+
+</div>
+
+<div class="detail-overlay" id="detail-overlay">
+  <div class="detail-card">
+    <button class="detail-close" onclick="closeDetail()">×</button>
+    <div id="detail-content"></div>
+  </div>
+</div>
+
+<div class="updated" id="updated-text"></div>
+
+<script>
+let racesData = [];
+let currentVenue = '';
+let detailChart = null;
+
+const METRICS = {
+  top1: [21.3, 35.7, 45.8],
+  in3:  [50.1, 67.6, 77.5],
+  labels: ['旧モデル','改良B','改良A'],
+  colors: ['#8b90a8','#4f8ef7','#2dd4a0']
+};
+
+const FEATURES = [
+  {f:'過去5走平均着順',g:173},
+  {f:'通算複勝率',g:60},
+  {f:'騎手複勝率',g:21},
+  {f:'騎手×場複勝率',g:18},
+  {f:'馬×場勝率',g:18},
+  {f:'騎手×場勝率',g:15},
+  {f:'馬体重',g:14},
+  {f:'馬×場出走数',g:13},
+  {f:'通算勝率',g:9},
+  {f:'上がり3F平均',g:8},
+];
+
+function switchTab(t) {
+  document.querySelectorAll('.tab').forEach((b,i)=>b.classList.toggle('active',['races','models'][i]===t));
+  document.getElementById('tab-races').style.display = t==='races'?'':'none';
+  document.getElementById('tab-models').style.display = t==='models'?'':'none';
+}
+
+function scoreHorse(h) {
+  let s = 50;
+  if(h.h_avg5_finish != null) s += (6-Math.min(h.h_avg5_finish,6))*5;
+  if(h.h_place_rate  != null) s += h.h_place_rate*15;
+  if(h.h_win_rate    != null) s += h.h_win_rate*10;
+  if(h.j_place_rate  != null) s += h.j_place_rate*8;
+  if(h.j_win_rate    != null) s += h.j_win_rate*5;
+  if(h.weight_diff   != null) s += (h.weight_diff>0&&h.weight_diff<=4)?2:(h.weight_diff<-4?-3:0);
+  if(h.horse_age     != null) s += (h.horse_age>=4&&h.horse_age<=6)?3:-1;
+  if(h.popularity    != null) { if(h.popularity<=2)s-=2; if(h.popularity>=6)s+=3; }
+  return Math.max(10,Math.min(99,Math.round(s)));
+}
+
+function getRankInfo(score,i) {
+  if(i===0) return {label:'◎',color:'#f5a623'};
+  if(i===1) return {label:'○',color:'#4f8ef7'};
+  if(i===2) return {label:'▲',color:'#2dd4a0'};
+  if(score>=50) return {label:'△',color:'#8b90a8'};
+  return {label:'×',color:'rgba(139,144,168,0.5)'};
+}
+
+function getStyle(horse_no, n) {
+  const p = horse_no/n;
+  if(p<=0.2) return '逃げ';
+  if(p<=0.45) return '先行';
+  if(p<=0.7) return '差し';
+  return '追込';
+}
+
+async function loadData() {
+  try {
+    const r = await fetch('today_races.json?t='+Date.now());
+    if(!r.ok) throw new Error();
+    racesData = await r.json();
+    renderVenues();
+    const d = new Date();
+    document.getElementById('update-badge').textContent = `${d.getHours()}:${String(d.getMinutes()).padStart(2,'0')} 更新`;
+    document.getElementById('updated-text').textContent = `最終更新: ${d.toLocaleString('ja-JP')}`;
+  } catch(e) {
+    document.getElementById('update-badge').textContent = 'データなし';
+    document.getElementById('race-list').innerHTML = '<div class="empty">today_races.jsonが見つかりません<br>keiba_discord_notifier.pyを実行してください</div>';
+  }
+}
+
+function renderVenues() {
+  const venues = [...new Set(racesData.map(r=>r.venue))];
+  if(!currentVenue && venues.length) currentVenue = venues[0];
+  const tabsEl = document.getElementById('venue-tabs');
+  tabsEl.innerHTML = venues.map(v=>
+    `<button class="venue-btn ${v===currentVenue?'active':''}" onclick="selectVenue('${v}')">${v}</button>`
+  ).join('');
+  renderRaces();
+}
+
+function selectVenue(v) {
+  currentVenue = v;
+  renderVenues();
+}
+
+function renderRaces() {
+  const races = racesData.filter(r=>r.venue===currentVenue);
+  const el = document.getElementById('race-list');
+  if(!races.length){ el.innerHTML='<div class="empty">レースなし</div>'; return; }
+
+  el.innerHTML = races.map(race => {
+    const horses = race.horses || [];
+    const preds = (race.predictions||[]).length ? race.predictions : horses;
+    const scored = preds.map(h=>({...h,score:scoreHorse(h)})).sort((a,b)=>b.score-a.score);
+    const top3 = scored.slice(0,3);
+    const pt = race.post_time ? race.post_time.substring(11,16) : '--:--';
+    const isHole = scored[0]?.popularity >= 5;
+
+    return `<div class="race-card" onclick="openDetail(${race.race_no})">
+      <div class="race-header">
+        <span class="race-title">R${race.race_no} <span style="color:var(--text2);font-size:12px;">${race.n_horses}頭</span>
+          ${isHole?'<span class="hole-badge">穴</span>':''}
+        </span>
+        <span class="race-time">${pt}発走</span>
+      </div>
+      <div class="race-top3">
+        ${top3.map((h,i)=>`<span class="horse-pill p${i+1}">${['◎','○','▲'][i]} ${h.horse_name}</span>`).join('')}
+      </div>
+    </div>`;
+  }).join('');
+}
+
+function openDetail(raceNo) {
+  const race = racesData.find(r=>r.venue===currentVenue&&r.race_no===raceNo);
+  if(!race) return;
+  const horses = race.horses || [];
+  const preds = (race.predictions||[]).length ? race.predictions : horses;
+  const scored = preds.map(h=>({...h,score:scoreHorse(h)})).sort((a,b)=>b.score-a.score);
+  const pt = race.post_time ? race.post_time.substring(11,16) : '--:--';
+  const n = scored.length;
+
+  const styles = scored.map(h=>getStyle(h.horse_no,n));
+  const escaper = scored.find((h,i)=>styles[i]==='逃げ');
+  const leaders = scored.filter((h,i)=>styles[i]==='先行');
+  const hasPace = leaders.length>=2;
+
+  const flowHTML = `<div class="flow-row">
+    <span class="flow-tag">逃: ${escaper?.horse_name||'?'}</span>
+    <span class="flow-arrow">→</span>
+    <span class="flow-tag">先: ${leaders.map(h=>h.horse_name).join('・')||'なし'}</span>
+    <span class="flow-arrow">→</span>
+    <span class="flow-tag">${hasPace?'ハイペース':'平均ペース'}</span>
+  </div>`;
+
+  const horsesHTML = scored.map((h,i)=>{
+    const ri = getRankInfo(h.score,i);
+    const pct = h.score;
+    const barColor = i===0?'#f5a623':i===1?'#4f8ef7':i===2?'#2dd4a0':'#8b90a8';
+    return `<div class="horse-row">
+      <span class="rank-badge rank-${i<3?i+1:'other'}" style="color:${ri.color};background:${ri.color}22;">${ri.label}</span>
+      <div style="flex:1;">
+        <div class="horse-name">${h.horse_no}番 ${h.horse_name}</div>
+        <div class="horse-sub">${getStyle(h.horse_no,n)} / ${h.popularity!=null?h.popularity+'人気':'--'}</div>
+      </div>
+      <div class="score-bar-wrap">
+        <div class="score-bar-bg"><div class="score-bar-fill" style="width:${pct}%;background:${barColor};"></div></div>
+        <div class="score-num" style="color:${barColor};">${pct}</div>
+      </div>
+      <div class="odds">${h.odds!=null?h.odds+'倍':'--'}</div>
+    </div>`;
+  }).join('');
+
+  document.getElementById('detail-content').innerHTML = `
+    <h3 style="font-size:16px;margin-bottom:4px;">${currentVenue} R${raceNo}</h3>
+    <p style="font-size:12px;color:var(--text2);margin-bottom:14px;">${pt}発走 / ${n}頭</p>
+    <div class="card-title">展開予想</div>
+    ${flowHTML}
+    <div class="card-title" style="margin-top:14px;">馬別AI指数</div>
+    ${horsesHTML}
+  `;
+  document.getElementById('detail-overlay').classList.add('open');
+}
+
+function closeDetail() {
+  document.getElementById('detail-overlay').classList.remove('open');
+}
+
+function switchModelView(type) {
+  document.querySelectorAll('.model-tab-btn').forEach((b,i)=>b.classList.toggle('active',['top1','in3'][i]===type));
+  if(detailChart) detailChart.destroy();
+  detailChart = new Chart(document.getElementById('detail-chart'),{
+    type:'bar',
+    data:{labels:METRICS.labels,datasets:[{data:METRICS[type],backgroundColor:METRICS.colors,borderRadius:6}]},
+    options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},scales:{y:{min:0,max:100,ticks:{color:'#8b90a8',callback:v=>v+'%'},grid:{color:'rgba(255,255,255,0.05)'}},x:{ticks:{color:'#8b90a8'},grid:{display:false}}}}
+  });
+}
+
+window.onload = () => {
+  loadData();
+  setInterval(loadData, 600000);
+
+  new Chart(document.getElementById('model-chart'),{
+    type:'bar',
+    data:{labels:METRICS.labels,datasets:[
+      {label:'1位的中率',data:METRICS.top1,backgroundColor:METRICS.colors,borderRadius:6},
+    ]},
+    options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},scales:{y:{min:0,max:60,ticks:{color:'#8b90a8',callback:v=>v+'%'},grid:{color:'rgba(255,255,255,0.05)'}},x:{ticks:{color:'#8b90a8'},grid:{display:false}}}}
+  });
+
+  detailChart = new Chart(document.getElementById('detail-chart'),{
+    type:'bar',
+    data:{labels:METRICS.labels,datasets:[{data:METRICS.top1,backgroundColor:METRICS.colors,borderRadius:6}]},
+    options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},scales:{y:{min:0,max:100,ticks:{color:'#8b90a8',callback:v=>v+'%'},grid:{color:'rgba(255,255,255,0.05)'}},x:{ticks:{color:'#8b90a8'},grid:{display:false}}}}
+  });
+
+  new Chart(document.getElementById('feat-chart'),{
+    type:'bar',
+    data:{labels:FEATURES.map(f=>f.f),datasets:[{data:FEATURES.map(f=>f.g),backgroundColor:'#4f8ef7',borderRadius:4}]},
+    options:{indexAxis:'y',responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},scales:{x:{ticks:{color:'#8b90a8'},grid:{color:'rgba(255,255,255,0.05)'}},y:{ticks:{color:'#8b90a8',font:{size:11}},grid:{display:false}}}}
+  });
+};
+</script>
+</body>
+</html>
