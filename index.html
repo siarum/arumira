@@ -85,6 +85,9 @@ header h1{font-size:16px;font-weight:600;}
 .stat-val{font-size:20px;font-weight:700;}
 .hole-badge{font-size:10px;padding:1px 5px;border-radius:4px;background:rgba(242,95,92,0.2);color:var(--red);margin-left:3px;}
 .cur-badge{font-size:10px;padding:1px 5px;border-radius:4px;background:rgba(79,142,247,0.2);color:var(--blue);margin-left:3px;}
+.done-badge{font-size:10px;padding:1px 5px;border-radius:4px;background:rgba(139,144,168,0.2);color:var(--text2);margin-left:3px;}
+.race-card.done{opacity:0.5;}
+.venue-done{font-size:10px;padding:1px 5px;border-radius:4px;background:rgba(139,144,168,0.15);color:var(--text2);margin-left:3px;}
 .updated{font-size:11px;color:var(--text2);text-align:center;padding:12px;}
 .empty{text-align:center;padding:36px 16px;color:var(--text2);}
 .date-filter{display:flex;gap:6px;overflow-x:auto;padding-bottom:8px;margin-bottom:10px;}
@@ -246,40 +249,66 @@ async function loadMetrics(){
   }
 }
 
+function isRaceDone(post_time){
+  if(!post_time) return false;
+  return new Date(post_time.replace(' ','T')) < new Date();
+}
+
+function isVenueDone(venue){
+  const races=racesData.filter(r=>r.venue===venue);
+  return races.length>0 && races.every(r=>isRaceDone(r.post_time));
+}
+
 function renderVenues(){
   const venues=[...new Set(racesData.map(r=>r.venue))];
-  if(!currentVenue&&venues.length) currentVenue=venues[0];
-  document.getElementById('venue-tabs').innerHTML=venues.map(v=>
-    `<button class="rbtn ${v===currentVenue?'active':''}" onclick="selectVenue('${v}')">${v}</button>`
-  ).join('');
+  if(!currentVenue) currentVenue='全体';
+  document.getElementById('venue-tabs').innerHTML=
+    `<button class="rbtn ${currentVenue==='全体'?'active':''}" onclick="selectVenue('全体')">🔎 発走前</button>`+
+    venues.map(v=>{
+      const done=isVenueDone(v);
+      return `<button class="rbtn ${v===currentVenue?'active':''}" onclick="selectVenue('${v}')">${v}${done?'<span class="venue-done">済</span>':''}` + `</button>`;
+    }).join('');
   renderRaces();
 }
 
 function selectVenue(v){ currentVenue=v; renderVenues(); }
 
-function renderRaces(){
-  const races=racesData.filter(r=>r.venue===currentVenue);
-  const el=document.getElementById('race-list');
-  if(!races.length){ el.innerHTML='<div class="empty">レースなし</div>'; return; }
-  el.innerHTML=races.map(race=>{
-    const preds=getPreds(race);
-    const scored=preds.map(h=>({...h,score:getScore(h)})).sort((a,b)=>b.score-a.score);
-    const top3=scored.slice(0,3);
-    const pt=race.post_time?race.post_time.substring(11,16):'--:--';
-    const isHole=scored[0]?.popularity>=5&&scored[0]?.popularity!==999;
-    const topOdds=scored[0]?.odds&&scored[0].odds>0?scored[0].odds+'倍':'';
-    return `<div class="race-card" onclick="openDetail(${race.race_no})">
-      <div class="race-header">
-        <span class="race-title">R${race.race_no}<span style="color:var(--text2);font-size:11px;margin-left:5px;">${race.n_horses}頭</span>${isHole?'<span class="hole-badge">穴</span>':''}</span>
-        <span class="race-meta">${topOdds?`<span style="color:var(--amber);">${topOdds}</span>`:''}<span>${pt}発走</span></span>
-      </div>
-      <div class="race-top3">${top3.map((h,i)=>{
-        const odds=h.odds&&h.odds>0?`<span class="odds-tag">${h.odds}倍</span>`:'';
-        return `<span class="horse-pill p${i+1}">${['◎','○','▲'][i]} ${h.horse_name}${odds}</span>`;
-      }).join('')}</div>
-    </div>`;
-  }).join('');
+function raceCard(race, showVenue=false){
+  const preds=getPreds(race);
+  const scored=preds.map(h=>({...h,score:getScore(h)})).sort((a,b)=>b.score-a.score);
+  const top3=scored.slice(0,3);
+  const pt=race.post_time?race.post_time.substring(11,16):'--:--';
+  const done=isRaceDone(race.post_time);
+  const isHole=!done&&scored[0]?.popularity>=5&&scored[0]?.popularity!==999;
+  const topOdds=!done&&scored[0]?.odds&&scored[0].odds>0?scored[0].odds+'倍':'';
+  const venueLabel=showVenue?`<span style="color:var(--blue);font-size:11px;margin-right:4px;">${race.venue}</span>`:'';
+  return `<div class="race-card${done?' done':''}" onclick="openDetailFull('${race.venue}',${race.race_no})">
+    <div class="race-header">
+      <span class="race-title">${venueLabel}R${race.race_no}<span style="color:var(--text2);font-size:11px;margin-left:5px;">${race.n_horses}頭</span>${isHole?'<span class="hole-badge">穴</span>':''}${done?'<span class="done-badge">発走済</span>':''}</span>
+      <span class="race-meta">${topOdds?`<span style="color:var(--amber);">${topOdds}</span>`:''}<span>${pt}発走</span></span>
+    </div>
+    <div class="race-top3">${top3.map((h,i)=>{
+      const odds=h.odds&&h.odds>0?`<span class="odds-tag">${h.odds}倍</span>`:'';
+      return `<span class="horse-pill p${i+1}">${['◎','○','▲'][i]} ${h.horse_name}${odds}</span>`;
+    }).join('')}</div>
+  </div>`;
 }
+
+function renderRaces(){
+  const el=document.getElementById('race-list');
+  if(currentVenue==='全体'){
+    const upcoming=racesData.filter(r=>!isRaceDone(r.post_time))
+      .sort((a,b)=>(a.post_time||'').localeCompare(b.post_time||''));
+    if(!upcoming.length){ el.innerHTML='<div class="empty">発走前のレースはありません</div>'; return; }
+    el.innerHTML=upcoming.map(r=>raceCard(r,true)).join('');
+  } else {
+    const races=racesData.filter(r=>r.venue===currentVenue);
+    if(!races.length){ el.innerHTML='<div class="empty">レースなし</div>'; return; }
+    el.innerHTML=races.map(r=>raceCard(r,false)).join('');
+  }
+}
+
+function openDetailFull(venue, raceNo){ currentVenue=venue; openDetail(raceNo); }
 
 function openDetail(raceNo){
   currentRaceNo=raceNo;
