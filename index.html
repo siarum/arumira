@@ -111,8 +111,11 @@ header h1{font-size:16px;font-weight:600;}
 <div id="tab-races">
   <div class="row-btns" id="venue-tabs"></div>
   <div class="row-btns">
-    <button class="rbtn active" onclick="switchModel('b')">改良B（AI独自）</button>
-    <button class="rbtn" onclick="switchModel('a')">改良A（人気あり）</button>
+    <button class="rbtn active" onclick="switchModel('s4')">⚡ v3-S4</button>
+    <button class="rbtn" onclick="switchModel('s5')">🤖 v3-S5</button>
+    <button class="rbtn" onclick="switchModel('a')">📊 v3-A</button>
+    <button class="rbtn" onclick="switchModel('v2b')">🔵 v2-B</button>
+    <button class="rbtn" onclick="switchModel('v2a')">🟢 v2-A</button>
   </div>
   <div class="race-list" id="race-list"></div>
 </div>
@@ -127,19 +130,20 @@ header h1{font-size:16px;font-weight:600;}
 <!-- モデルタブ -->
 <div id="tab-models" style="display:none;">
   <div class="card">
-    <div class="card-title">3モデル比較</div>
-    <div class="model-compare" id="model-cards"></div>
-  </div>
-  <div class="card">
+    <div class="card-title">5モデル比較</div>
     <div class="model-tab-btns">
       <button class="mtb active" onclick="switchModelView('top1')">1位的中率</button>
       <button class="mtb" onclick="switchModelView('in3')">3着内率</button>
     </div>
-    <div class="chart-wrap"><canvas id="detail-chart"></canvas></div>
+    <div class="chart-wrap" style="height:220px;"><canvas id="detail-chart"></canvas></div>
   </div>
   <div class="card">
-    <div class="card-title">特徴量重要度 Top10（改良B）</div>
-    <div class="chart-wrap" style="height:260px;"><canvas id="feat-chart"></canvas></div>
+    <div class="card-title">的中レース数・統計</div>
+    <div class="stat-grid" id="model-hit-stats"></div>
+  </div>
+  <div class="card">
+    <div class="card-title">競馬場別勝率（AI予測1位）</div>
+    <div class="chart-wrap" style="height:260px;"><canvas id="venue-chart"></canvas></div>
   </div>
 </div>
 
@@ -158,7 +162,7 @@ header h1{font-size:16px;font-weight:600;}
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
 <script>
 let racesData=[], resultsData=[], metricsData=null, detailChart=null;
-let currentVenue='', currentModel='b', currentModelView='top1';
+let currentVenue='', currentModel='s4', currentModelView='top1';
 let currentResultDate='', currentRaceNo=null;
 
 const FEATS=[
@@ -173,19 +177,20 @@ function switchTab(t){
   });
   document.querySelectorAll('.tab').forEach((b,i)=>b.classList.toggle('active',['races','results','models'][i]===t));
   if(t==='results') renderResults();
-  if(t==='models'){ renderModelCards(); renderDetailChart(); renderFeatChart(); }
+  if(t==='models'){ renderDetailChart(); }
 }
 
 function switchModel(m){
   currentModel=m;
-  document.querySelectorAll('#tab-races .row-btns:nth-child(2) .rbtn').forEach((b,i)=>b.classList.toggle('active',['b','a'][i]===m));
+  document.querySelectorAll('#tab-races .row-btns:nth-child(2) .rbtn').forEach((b,i)=>b.classList.toggle('active',['s4','s5','a','v2b','v2a'][i]===m));
   renderRaces();
   if(currentRaceNo!=null) openDetail(currentRaceNo);
 }
 
 function getPreds(race){
-  if(currentModel==='a'&&race.predictions_a&&race.predictions_a.length) return race.predictions_a;
-  return race.predictions||[];
+  const key={s4:'predictions',s5:'predictions_s5',a:'predictions_a',v2b:'predictions_v2b',v2a:'predictions_v2a'};
+  const k=key[currentModel]||'predictions';
+  return (race[k]&&race[k].length)?race[k]:(race.predictions||[]);
 }
 
 function getScore(h){ return h.win_prob&&h.win_prob>0?Math.max(10,Math.min(99,Math.round(h.win_prob))):50; }
@@ -197,23 +202,125 @@ function getStyle(no,n){
   return p<=0.2?'逃げ':p<=0.45?'先行':p<=0.7?'差し':'追込';
 }
 
-// 買い目生成
-function getBets(scored){
-  const top3=scored.slice(0,3);
-  const bets=[];
-  if(top3[0]){
-    const odds=top3[0].odds||0;
-    bets.push({type:'単勝',horses:top3[0].horse_name,odds:odds>0?odds+'倍':'--',color:'#f5a623'});
+// AIによる期待値ベース買い目生成（3000円配分）
+function getBets(scored, budget=3000, race=null){
+  const uren=race?.odds_uren||{};
+  const wide=race?.odds_wide||{};
+  const utan=race?.odds_utan||{};
+  const sanfuku=race?.odds_sanfuku||{};
+  // 実オッズ取得ヘルパー
+  const getUren=(a,b)=>{ const k1=`${Math.min(a,b)}-${Math.max(a,b)}`; return uren[k1]||0; };
+  const getWide=(a,b)=>{ const k1=`${Math.min(a,b)}-${Math.max(a,b)}`; return wide[k1]||0; };
+  const getUtan=(a,b)=>utan[`${a}-${b}`]||0;
+  const getSanfuku=(a,b,c)=>{ const ns=[a,b,c].sort((x,y)=>x-y); return sanfuku[ns.join('-')]||0; };
+  if(!scored.length) return [];
+  const n=scored.length;
+  const TAKE=0.75; // 控除率75%（控除後の期待配当）
+  const candidates=[];
+
+  // オッズ補完：単勝オッズがない場合はwin_probから推定
+  const hs=scored.map(h=>({
+    ...h,
+    wp: Math.max((h.win_prob||1)/100, 0.01),
+    pp: Math.max((h.place_prob||1)/100, 0.01),
+    tod: (h.odds&&h.odds>1.0) ? h.odds : Math.min(99, 1/(Math.max((h.win_prob||1)/100,0.01))*TAKE),
+    fod: (h.odds&&h.odds>1.0) ? Math.max(1.1, h.odds*0.28) : Math.max(1.1, 1/(Math.max((h.place_prob||1)/100,0.03))*TAKE),
+  }));
+
+  // ① 単勝
+  for(const h of hs){
+    const ev=h.wp*h.tod;
+    candidates.push({type:'単勝',horses:`${h.horse_no}`,note:h.horse_name,
+      prob:h.wp, ret:h.tod, ev, color:'#f5a623', key:`tan_${h.horse_no}`});
   }
-  if(top3[0]&&top3[1]){
-    bets.push({type:'馬連',horses:`${top3[0].horse_no}-${top3[1].horse_no}`,odds:'--',color:'#4f8ef7'});
-    bets.push({type:'馬単',horses:`${top3[0].horse_no}→${top3[1].horse_no}`,odds:'--',color:'#4f8ef7'});
+
+  // ② 複勝
+  for(const h of hs){
+    const ev=h.pp*h.fod;
+    candidates.push({type:'複勝',horses:`${h.horse_no}`,note:h.horse_name,
+      prob:h.pp, ret:h.fod, ev, color:'#2dd4a0', key:`fuku_${h.horse_no}`});
   }
-  if(top3.length===3){
-    bets.push({type:'3連複',horses:`${top3[0].horse_no}-${top3[1].horse_no}-${top3[2].horse_no}`,odds:'--',color:'#2dd4a0'});
-    bets.push({type:'3連単',horses:`${top3[0].horse_no}→${top3[1].horse_no}→${top3[2].horse_no}`,odds:'--',color:'#2dd4a0'});
+
+  // ③ 馬連（上位5頭の組み合わせ）
+  const top5=hs.slice(0,Math.min(5,n));
+  for(let i=0;i<top5.length;i++){
+    for(let j=i+1;j<top5.length;j++){
+      const a=top5[i],b=top5[j];
+      // P(a1着&b2着) + P(b1着&a2着)
+      const p2=(a.pp-a.wp)>0&&(b.pp-b.wp)>0
+        ? a.wp*(b.pp-b.wp)+b.wp*(a.pp-a.wp) : 0.001;
+      const realUren=getUren(a.horse_no,b.horse_no);
+      const ret=realUren>0?realUren:Math.min((1/p2)*TAKE, 300);
+      const ev=p2*ret;
+      const ns=[a.horse_no,b.horse_no].sort((x,y)=>x-y);
+      candidates.push({type:'馬連',horses:`${ns[0]}-${ns[1]}`,
+        note:`${a.horse_name}×${b.horse_name}`,
+        prob:p2, ret:Math.round(ret*10)/10, ev, color:'#4f8ef7',
+        key:`uren_${ns[0]}_${ns[1]}`, hasRealOdds:realUren>0});
+    }
   }
-  return bets;
+
+  // ④ 馬単（上位4頭）
+  const top4=hs.slice(0,Math.min(4,n));
+  for(let i=0;i<top4.length;i++){
+    for(let j=0;j<top4.length;j++){
+      if(i===j) continue;
+      const a=top4[i],b=top4[j];
+      const p=a.wp*(b.pp-b.wp)>0 ? a.wp*(b.pp-b.wp) : 0.001;
+      const realUtan=getUtan(a.horse_no,b.horse_no);
+      const ret=realUtan>0?realUtan:Math.min((1/p)*TAKE, 500);
+      const ev=p*ret;
+      candidates.push({type:'馬単',horses:`${a.horse_no}→${b.horse_no}`,
+        note:`${a.horse_name}→${b.horse_name}`,
+        prob:p, ret:Math.round(ret*10)/10, ev, color:'#9b7ff4',
+        key:`utan_${a.horse_no}_${b.horse_no}`});
+    }
+  }
+
+  // ⑤ 3連複（上位5頭から3頭）
+  for(let i=0;i<Math.min(top5.length,4);i++){
+    for(let j=i+1;j<top5.length;j++){
+      for(let k=j+1;k<top5.length;k++){
+        const a=top5[i],b=top5[j],c=top5[k];
+        // 簡易推定：3頭が3着以内に入る確率
+        const p=Math.min(a.wp*b.pp*c.pp*6, 0.5);
+        if(p<0.005) continue;
+        const realSanfuku=getSanfuku(a.horse_no,b.horse_no,c.horse_no);
+        const ret=realSanfuku>0?realSanfuku:Math.min((1/p)*TAKE, 1000);
+        const ev=p*ret;
+        const ns=[a.horse_no,b.horse_no,c.horse_no].sort((x,y)=>x-y);
+        candidates.push({type:'3連複',horses:`${ns[0]}-${ns[1]}-${ns[2]}`,
+          note:`${a.horse_name}×${b.horse_name}×${c.horse_name}`,
+          prob:p, ret:Math.round(ret*10)/10, ev, color:'#2dd4a0',
+          key:`sanfuku_${ns[0]}_${ns[1]}_${ns[2]}`});
+      }
+    }
+  }
+
+  // EV降順でソート、重複キー除外、EV>0.65のみ
+  const seen=new Set();
+  const filtered=candidates
+    .filter(b=>b.ev>0.65 && b.prob>0.005)
+    .sort((a,b)=>b.ev-a.ev)
+    .filter(b=>{ if(seen.has(b.key)) return false; seen.add(b.key); return true; });
+
+  // EV比率で予算配分（100円単位、100〜1000円）
+  const picks=filtered.slice(0,8);
+  if(!picks.length) return [];
+  const sumEV=picks.reduce((s,b)=>s+b.ev,0);
+  let rem=budget;
+  const result=[];
+  for(const b of picks){
+    const raw=Math.round((b.ev/sumEV)*budget/100)*100;
+    const amt=Math.min(Math.max(raw,100),1000);
+    if(rem>=amt){
+      result.push({...b,amt});
+      rem-=amt;
+    }
+  }
+  // 残額を先頭に追加
+  if(rem>=100 && result.length>0) result[0].amt+=rem;
+  return result;
 }
 
 async function loadData(){
@@ -241,11 +348,15 @@ async function loadResults(){
 
 async function loadMetrics(){
   try{
-    const r=await fetch('metrics_v2.json?t='+Date.now());
-    if(!r.ok) throw new Error();
-    metricsData=await r.json();
+    const [r2,r3]=await Promise.all([
+      fetch('metrics_v2.json?t='+Date.now()),
+      fetch('metrics_v3.json?t='+Date.now())
+    ]);
+    const m2=r2.ok?await r2.json():{};
+    const m3=r3.ok?await r3.json():{};
+    metricsData={m2,m3};
   }catch(e){
-    metricsData={old_top1:0.213,old_in3:0.501,newB_top1:0.357,newB_in3:0.676,newA_top1:0.458,newA_in3:0.775};
+    metricsData={m2:{},m3:{}};
   }
 }
 
@@ -314,6 +425,8 @@ function openDetail(raceNo){
   currentRaceNo=raceNo;
   const race=racesData.find(r=>r.venue===currentVenue&&r.race_no===raceNo);
   if(!race) return;
+  // オッズ有無をログ
+  if(race.odds_uren&&Object.keys(race.odds_uren).length) console.log('実オッズあり: 馬連'+Object.keys(race.odds_uren).length+'件');
   const preds=getPreds(race);
   const scored=preds.map(h=>({...h,score:getScore(h)})).sort((a,b)=>b.score-a.score);
   const pt=race.post_time?race.post_time.substring(11,16):'--:--';
@@ -321,9 +434,9 @@ function openDetail(raceNo){
   const styles=scored.map(h=>getStyle(h.horse_no,n));
   const escaper=scored.find((h,i)=>styles[i]==='逃げ');
   const leaders=scored.filter((h,i)=>styles[i]==='先行');
-  const modelLabel=currentModel==='b'?'改良B（AI独自）':'改良A（人気あり）';
-  const modelColor=currentModel==='b'?'var(--blue)':'var(--green)';
-  const bets=getBets(scored);
+  const mlmap={s4:['v3-S4（Discord）','var(--amber)'],s5:['v3-S5（+コンビ）','var(--blue)'],a:['v3-A（人気あり）','var(--green)'],v2b:['v2-B（AI独自）','#8b90a8'],v2a:['v2-A（人気あり）','#9b7ff4']};
+  const [modelLabel,modelColor]=(mlmap[currentModel]||mlmap.s4);
+  const bets=getBets(scored,3000,race);
 
   const horsesHTML=scored.map((h,i)=>{
     const rk=getRank(i);
@@ -344,12 +457,20 @@ function openDetail(raceNo){
     </div>`;
   }).join('');
 
-  const betsHTML=bets.map(b=>`
-    <div class="bet-row">
-      <span class="bet-type">${b.type}</span>
-      <span class="bet-horses" style="color:${b.color};">${b.horses}</span>
-      <span class="bet-odds">${b.odds}</span>
-    </div>`).join('');
+  const betsHTML=bets.map(b=>{
+    const evPct=Math.round(b.ev*100);
+    const evColor=evPct>=100?'#2dd4a0':evPct>=80?'#f5a623':'#8b90a8';
+    const oddsLabel=b.hasRealOdds?'実':'推';
+    const hitAmt=b.amt&&b.ret?Math.round(b.amt*b.ret)+'円':'-';
+    return `<div class="bet-row">
+      <span style="font-size:12px;font-weight:700;color:${b.color};min-width:36px;">${b.type}</span>
+      <span style="font-size:13px;font-weight:700;flex:1;">${b.horses}</span>
+      <span style="font-size:10px;color:var(--text2);flex:1.5;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">${b.note||''}</span>
+      <span style="font-size:10px;color:${evColor};min-width:36px;text-align:right;">EV${evPct}%</span>
+      <span style="font-size:10px;color:var(--text2);min-width:36px;text-align:right;">${oddsLabel}${b.ret}倍</span>
+      <span class="bet-odds">${b.amt}円</span>
+    </div>`;
+  }).join('');
 
   document.getElementById('detail-content').innerHTML=`
     <h3 style="font-size:16px;margin-bottom:3px;">${currentVenue} R${raceNo}</h3>
@@ -366,7 +487,11 @@ function openDetail(raceNo){
     <div class="card-title" style="margin-top:12px;">馬別AI指数</div>
     ${horsesHTML}
     <div class="bet-section">
-      <div class="bet-title">💰 AI買い目提案</div>
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;">
+        <span class="bet-title">💰 買い目提案</span>
+        <span style="font-size:11px;color:var(--amber);">合計 ${bets.reduce((s,b)=>s+(b.amt||0),0)}円 / 3,000円</span>
+      </div>
+      <div style="font-size:10px;color:var(--text2);margin-bottom:8px;">EV=期待値(100%超が割安) ｜ 推定倍率は控除後の概算</div>
       ${betsHTML}
     </div>`;
   document.getElementById('detail-overlay').classList.add('open');
@@ -432,45 +557,77 @@ function renderResultList(){
 }
 
 // モデルタブ
-function renderModelCards(){
-  if(!metricsData) return;
-  const m=metricsData;
-  const fmt=v=>v!=null?(v*100).toFixed(1):'--';
-  document.getElementById('model-cards').innerHTML=`
-    <div class="model-card"><div class="model-name">旧モデル</div>
-      <div class="model-acc" style="color:var(--text2);">${fmt(m.old_top1)}%</div>
-      <div class="model-sub">3着内 ${fmt(m.old_in3)}%</div></div>
-    <div class="model-card active"><div class="model-name">改良B<span class="cur-badge">Discord</span></div>
-      <div class="model-acc" style="color:var(--blue);">${fmt(m.newB_top1)}%</div>
-      <div class="model-sub">3着内 ${fmt(m.newB_in3)}%</div></div>
-    <div class="model-card"><div class="model-name">改良A</div>
-      <div class="model-acc" style="color:var(--green);">${fmt(m.newA_top1)}%</div>
-      <div class="model-sub">3着内 ${fmt(m.newA_in3)}%</div></div>`;
-}
+function renderModelCards(){}
+// model cards replaced by chart
 
 function renderDetailChart(){
-  const m=metricsData||{old_top1:0.213,old_in3:0.501,newB_top1:0.357,newB_in3:0.676,newA_top1:0.458,newA_in3:0.775};
+  if(!metricsData) return;
+  const {m2,m3}=metricsData;
+  const st=m3.stages||{};
   const isTop1=currentModelView==='top1';
-  const data=isTop1
-    ?[m.old_top1,m.newB_top1,m.newA_top1].map(v=>+(v*100).toFixed(1))
-    :[m.old_in3,m.newB_in3,m.newA_in3].map(v=>+(v*100).toFixed(1));
+  const fmt=v=>v!=null?+(v*100).toFixed(1):0;
+  const data=isTop1?[
+    fmt(m2.old_top1),fmt(m2.newB_top1),fmt(m2.newA_top1),
+    fmt((st['S4:+相対指標']||{}).top1),fmt((st['S5:+コンビ']||{}).top1)
+  ]:[
+    fmt(m2.old_in3),fmt(m2.newB_in3),fmt(m2.newA_in3),
+    fmt((st['S4:+相対指標']||{}).in3),fmt((st['S5:+コンビ']||{}).in3)
+  ];
+  const colors=['#8b90a8','#4f8ef7','#2dd4a0','#f5a623','#9b7ff4'];
   if(detailChart) detailChart.destroy();
   detailChart=new Chart(document.getElementById('detail-chart'),{
-    type:'bar',data:{labels:['旧モデル','改良B','改良A'],datasets:[{data,backgroundColor:['#8b90a8','#4f8ef7','#2dd4a0'],borderRadius:6}]},
+    type:'bar',
+    data:{labels:['V1(旧)','V2B','V2A','V3-S4','V3-S5'],
+          datasets:[{data,backgroundColor:colors,borderRadius:6}]},
     options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},
-      scales:{y:{min:0,max:100,ticks:{color:'#8b90a8',callback:v=>v+'%'},grid:{color:'rgba(255,255,255,0.05)'}},x:{ticks:{color:'#8b90a8'},grid:{display:false}}}}
+      scales:{y:{min:0,max:60,ticks:{color:'#8b90a8',callback:v=>v+'%'},grid:{color:'rgba(255,255,255,0.05)'}},
+              x:{ticks:{color:'#8b90a8',font:{size:11}},grid:{display:false}}}}
   });
+  // 的中統計
+  if(resultsData.length){
+    const total=resultsData.length;
+    const hits=resultsData.filter(r=>r.pred1_hit).length;
+    const places=resultsData.filter(r=>r.pred1_place).length;
+    document.getElementById('model-hit-stats').innerHTML=`
+      <div class="stat-box"><div class="stat-label">総レース数</div><div class="stat-val">${total}</div></div>
+      <div class="stat-box"><div class="stat-label">単勝的中</div><div class="stat-val" style="color:var(--amber);">${hits}</div></div>
+      <div class="stat-box"><div class="stat-label">単勝的中率</div><div class="stat-val" style="color:var(--amber);">${(hits/total*100).toFixed(1)}%</div></div>
+      <div class="stat-box"><div class="stat-label">複勝的中率</div><div class="stat-val" style="color:var(--green);">${(places/total*100).toFixed(1)}%</div></div>`;
+  }
+  // 競馬場別勝率
+  renderVenueChart();
 }
 
-function renderFeatChart(){
-  if(document.getElementById('feat-chart')._done) return;
-  document.getElementById('feat-chart')._done=true;
-  new Chart(document.getElementById('feat-chart'),{
-    type:'bar',data:{labels:FEATS.map(f=>f.f),datasets:[{data:FEATS.map(f=>f.g),backgroundColor:'#4f8ef7',borderRadius:4}]},
-    options:{indexAxis:'y',responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},
-      scales:{x:{ticks:{color:'#8b90a8'},grid:{color:'rgba(255,255,255,0.05)'}},y:{ticks:{color:'#8b90a8',font:{size:11}},grid:{display:false}}}}
+function renderVenueChart(){
+  if(!resultsData.length) return;
+  const byVenue={};
+  resultsData.forEach(r=>{
+    if(!byVenue[r.venue]) byVenue[r.venue]={hits:0,total:0};
+    byVenue[r.venue].total++;
+    if(r.pred1_hit) byVenue[r.venue].hits++;
   });
+  const venues=Object.keys(byVenue).sort();
+  const rates=venues.map(v=>(byVenue[v].hits/byVenue[v].total*100));
+  const colors=rates.map(r=>r>=40?'#f5a623':r>=30?'#4f8ef7':r>=20?'#2dd4a0':'#8b90a8');
+  if(document.getElementById('venue-chart')._vc) document.getElementById('venue-chart')._vc.destroy();
+  const vc=new Chart(document.getElementById('venue-chart'),{
+    type:'bar',
+    data:{labels:venues,datasets:[{
+      data:rates,backgroundColor:colors,borderRadius:4,
+      label:'単勝的中率'
+    }]},
+    options:{indexAxis:'y',responsive:true,maintainAspectRatio:false,
+      plugins:{legend:{display:false},tooltip:{callbacks:{label:ctx=>{
+        const v=byVenue[venues[ctx.dataIndex]];
+        return ` ${ctx.raw.toFixed(1)}% (${v.hits}/${v.total}R)`;
+      }}}},
+      scales:{x:{min:0,max:60,ticks:{color:'#8b90a8',callback:v=>v+'%'},grid:{color:'rgba(255,255,255,0.05)'}},
+              y:{ticks:{color:'#8b90a8',font:{size:11}},grid:{display:false}}}}
+  });
+  document.getElementById('venue-chart')._vc=vc;
 }
+
+function renderFeatChart(){}
 
 function switchModelView(type){
   currentModelView=type;
@@ -481,6 +638,7 @@ function switchModelView(type){
 window.onload=async()=>{
   await Promise.all([loadData(), loadResults(), loadMetrics()]);
   setInterval(loadData,600000);
+  setInterval(loadMetrics,3600000);
 };
 </script>
 </body>
