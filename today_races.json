@@ -61,48 +61,48 @@
         "horse_name": "ユイファイア",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 32.7,
-        "place_prob": 81.8
+        "win_prob": 31.9,
+        "place_prob": 79.8
       },
       {
         "horse_no": 9,
         "horse_name": "トーケンジンバック",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 20.0,
-        "place_prob": 49.9
+        "win_prob": 20.2,
+        "place_prob": 50.5
       },
       {
         "horse_no": 3,
         "horse_name": "スティールライズ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 17.6,
-        "place_prob": 44.1
+        "win_prob": 17.8,
+        "place_prob": 44.6
       },
       {
         "horse_no": 6,
         "horse_name": "ササキンビンチャン",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 10.5,
-        "place_prob": 26.2
+        "win_prob": 10.6,
+        "place_prob": 26.6
       },
       {
         "horse_no": 4,
         "horse_name": "ヘッドシザーズ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 6.2,
-        "place_prob": 15.6
+        "win_prob": 6.3,
+        "place_prob": 15.8
       },
       {
         "horse_no": 2,
         "horse_name": "キューティーホープ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 5.4,
-        "place_prob": 13.5
+        "win_prob": 5.5,
+        "place_prob": 13.7
       },
       {
         "horse_no": 5,
@@ -110,7 +110,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 5.4,
-        "place_prob": 13.4
+        "place_prob": 13.5
       },
       {
         "horse_no": 1,
@@ -118,7 +118,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 2.2,
-        "place_prob": 5.4
+        "place_prob": 5.5
       }
     ],
     "predictions_a": [
@@ -193,8 +193,8 @@
         "horse_name": "ユイファイア",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 32.7,
-        "place_prob": 81.8
+        "win_prob": 32.8,
+        "place_prob": 81.9
       },
       {
         "horse_no": 9,
@@ -202,15 +202,15 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 20.1,
-        "place_prob": 50.2
+        "place_prob": 50.3
       },
       {
         "horse_no": 3,
         "horse_name": "スティールライズ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 18.2,
-        "place_prob": 45.6
+        "win_prob": 18.3,
+        "place_prob": 45.7
       },
       {
         "horse_no": 6,
@@ -218,23 +218,23 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 8.7,
-        "place_prob": 21.6
-      },
-      {
-        "horse_no": 5,
-        "horse_name": "ペトロパッション",
-        "odds": 0.0,
-        "popularity": 999,
-        "win_prob": 6.3,
-        "place_prob": 15.6
+        "place_prob": 21.7
       },
       {
         "horse_no": 4,
         "horse_name": "ヘッドシザーズ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 6.2,
+        "win_prob": 6.3,
         "place_prob": 15.6
+      },
+      {
+        "horse_no": 5,
+        "horse_name": "ペトロパッション",
+        "odds": 0.0,
+        "popularity": 999,
+        "win_prob": 6.2,
+        "place_prob": 15.5
       },
       {
         "horse_no": 2,
@@ -242,7 +242,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 5.5,
-        "place_prob": 13.9
+        "place_prob": 13.6
       },
       {
         "horse_no": 1,
@@ -259,24 +259,24 @@
         "horse_name": "トーケンジンバック",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 32.4,
-        "place_prob": 81.0
+        "win_prob": 32.5,
+        "place_prob": 81.2
       },
       {
         "horse_no": 7,
         "horse_name": "ユイファイア",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 24.0,
-        "place_prob": 59.9
+        "win_prob": 23.9,
+        "place_prob": 59.7
       },
       {
         "horse_no": 6,
         "horse_name": "ササキンビンチャン",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 15.0,
-        "place_prob": 37.4
+        "win_prob": 14.9,
+        "place_prob": 37.3
       },
       {
         "horse_no": 3,
@@ -284,7 +284,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 11.1,
-        "place_prob": 27.6
+        "place_prob": 27.7
       },
       {
         "horse_no": 4,
@@ -300,7 +300,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 4.0,
-        "place_prob": 10.1
+        "place_prob": 10.0
       },
       {
         "horse_no": 5,
@@ -308,7 +308,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 3.9,
-        "place_prob": 9.8
+        "place_prob": 9.9
       },
       {
         "horse_no": 1,
@@ -452,7 +452,7 @@
         "horse_name": "リュウノマッスル",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 54.4,
+        "win_prob": 54.3,
         "place_prob": 135.9
       },
       {
@@ -460,7 +460,7 @@
         "horse_name": "サザンザバロン",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 16.3,
+        "win_prob": 16.2,
         "place_prob": 40.7
       },
       {
@@ -468,8 +468,8 @@
         "horse_name": "ヨシノステラ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 9.4,
-        "place_prob": 24.5
+        "win_prob": 9.5,
+        "place_prob": 24.6
       },
       {
         "horse_no": 2,
@@ -501,7 +501,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 2.1,
-        "place_prob": 5.6
+        "place_prob": 5.5
       },
       {
         "horse_no": 10,
@@ -509,7 +509,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 1.5,
-        "place_prob": 3.9
+        "place_prob": 4.0
       }
     ],
     "predictions_a": [
@@ -585,7 +585,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 51.5,
-        "place_prob": 128.9
+        "place_prob": 128.7
       },
       {
         "horse_no": 5,
@@ -593,7 +593,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 18.6,
-        "place_prob": 46.5
+        "place_prob": 46.4
       },
       {
         "horse_no": 4,
@@ -601,15 +601,15 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 9.7,
-        "place_prob": 24.4
+        "place_prob": 24.3
       },
       {
         "horse_no": 1,
         "horse_name": "パンチャギ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 6.7,
-        "place_prob": 17.0
+        "win_prob": 6.8,
+        "place_prob": 17.3
       },
       {
         "horse_no": 2,
@@ -617,7 +617,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 6.7,
-        "place_prob": 17.0
+        "place_prob": 17.1
       },
       {
         "horse_no": 3,
@@ -633,7 +633,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 2.4,
-        "place_prob": 6.3
+        "place_prob": 6.2
       },
       {
         "horse_no": 10,
@@ -650,47 +650,47 @@
         "horse_name": "リュウノマッスル",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 63.4,
-        "place_prob": 158.4
+        "win_prob": 62.6,
+        "place_prob": 156.6
       },
       {
         "horse_no": 5,
         "horse_name": "サザンザバロン",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 14.1,
-        "place_prob": 41.8
+        "win_prob": 14.2,
+        "place_prob": 41.4
       },
       {
         "horse_no": 1,
         "horse_name": "パンチャギ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 7.2,
-        "place_prob": 22.0
+        "win_prob": 7.4,
+        "place_prob": 22.2
       },
       {
         "horse_no": 4,
         "horse_name": "ヨシノステラ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 5.7,
-        "place_prob": 17.6
+        "win_prob": 6.0,
+        "place_prob": 18.2
       },
       {
         "horse_no": 2,
         "horse_name": "ヤングゼネラル",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 3.0,
-        "place_prob": 9.3
+        "win_prob": 3.1,
+        "place_prob": 9.4
       },
       {
         "horse_no": 6,
         "horse_name": "ノーモアウォー",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 2.3,
+        "win_prob": 2.4,
         "place_prob": 7.2
       },
       {
@@ -717,7 +717,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 13.4,
-        "place_prob": 33.5
+        "place_prob": 33.6
       },
       {
         "horse_no": 1,
@@ -725,7 +725,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 12.8,
-        "place_prob": 31.9
+        "place_prob": 32.0
       },
       {
         "horse_no": 5,
@@ -740,7 +740,7 @@
         "horse_name": "ヨシノステラ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 12.6,
+        "win_prob": 12.7,
         "place_prob": 31.6
       },
       {
@@ -760,20 +760,20 @@
         "place_prob": 30.3
       },
       {
-        "horse_no": 10,
-        "horse_name": "ジャムリスチール",
-        "odds": 0.0,
-        "popularity": 999,
-        "win_prob": 12.1,
-        "place_prob": 30.3
-      },
-      {
         "horse_no": 3,
         "horse_name": "ロジャールンディー",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 11.9,
-        "place_prob": 29.8
+        "win_prob": 12.0,
+        "place_prob": 29.9
+      },
+      {
+        "horse_no": 10,
+        "horse_name": "ジャムリスチール",
+        "odds": 0.0,
+        "popularity": 999,
+        "win_prob": 12.0,
+        "place_prob": 29.9
       }
     ],
     "odds_uren": {},
@@ -843,56 +843,56 @@
         "horse_name": "キャトルブランシュ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 38.0,
-        "place_prob": 94.9
+        "win_prob": 37.1,
+        "place_prob": 92.8
       },
       {
         "horse_no": 2,
         "horse_name": "モズプリーズゴー",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 19.8,
-        "place_prob": 49.6
+        "win_prob": 20.1,
+        "place_prob": 50.3
       },
       {
         "horse_no": 7,
         "horse_name": "オンベイト",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 17.5,
-        "place_prob": 43.7
+        "win_prob": 17.7,
+        "place_prob": 44.2
       },
       {
         "horse_no": 3,
         "horse_name": "レディニキータ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 8.8,
-        "place_prob": 22.1
+        "win_prob": 8.9,
+        "place_prob": 22.3
       },
       {
         "horse_no": 9,
         "horse_name": "キミトヒカレ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 6.6,
-        "place_prob": 16.5
+        "win_prob": 6.7,
+        "place_prob": 16.7
       },
       {
         "horse_no": 4,
         "horse_name": "イケノミセスグリン",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 4.6,
-        "place_prob": 11.5
+        "win_prob": 4.7,
+        "place_prob": 11.6
       },
       {
         "horse_no": 11,
         "horse_name": "ノースバレリーナ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 2.9,
-        "place_prob": 7.4
+        "win_prob": 3.0,
+        "place_prob": 7.5
       },
       {
         "horse_no": 1,
@@ -900,7 +900,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 1.8,
-        "place_prob": 4.4
+        "place_prob": 4.5
       }
     ],
     "predictions_a": [
@@ -925,8 +925,8 @@
         "horse_name": "キャトルブランシュ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 13.3,
-        "place_prob": 33.2
+        "win_prob": 13.0,
+        "place_prob": 32.5
       },
       {
         "horse_no": 9,
@@ -941,8 +941,8 @@
         "horse_name": "モズプリーズゴー",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 12.2,
-        "place_prob": 30.6
+        "win_prob": 12.5,
+        "place_prob": 31.3
       },
       {
         "horse_no": 3,
@@ -975,24 +975,24 @@
         "horse_name": "キャトルブランシュ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 41.7,
-        "place_prob": 104.3
+        "win_prob": 41.6,
+        "place_prob": 104.1
       },
       {
         "horse_no": 2,
         "horse_name": "モズプリーズゴー",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 20.3,
-        "place_prob": 50.6
+        "win_prob": 20.5,
+        "place_prob": 51.2
       },
       {
         "horse_no": 7,
         "horse_name": "オンベイト",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 14.2,
-        "place_prob": 35.4
+        "win_prob": 14.1,
+        "place_prob": 35.2
       },
       {
         "horse_no": 3,
@@ -1000,7 +1000,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 8.8,
-        "place_prob": 22.0
+        "place_prob": 21.9
       },
       {
         "horse_no": 9,
@@ -1008,7 +1008,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 6.0,
-        "place_prob": 15.0
+        "place_prob": 14.9
       },
       {
         "horse_no": 4,
@@ -1016,7 +1016,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 4.8,
-        "place_prob": 11.9
+        "place_prob": 12.0
       },
       {
         "horse_no": 11,
@@ -1032,7 +1032,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 1.7,
-        "place_prob": 4.2
+        "place_prob": 4.1
       }
     ],
     "predictions_v2b": [
@@ -1041,32 +1041,32 @@
         "horse_name": "オンベイト",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 34.6,
-        "place_prob": 86.6
+        "win_prob": 34.3,
+        "place_prob": 85.7
       },
       {
         "horse_no": 5,
         "horse_name": "キャトルブランシュ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 31.0,
-        "place_prob": 77.4
+        "win_prob": 31.1,
+        "place_prob": 77.7
       },
       {
         "horse_no": 2,
         "horse_name": "モズプリーズゴー",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 11.9,
-        "place_prob": 29.9
+        "win_prob": 12.1,
+        "place_prob": 30.3
       },
       {
         "horse_no": 3,
         "horse_name": "レディニキータ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 7.0,
-        "place_prob": 17.4
+        "win_prob": 6.8,
+        "place_prob": 16.9
       },
       {
         "horse_no": 4,
@@ -1074,23 +1074,23 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 5.9,
-        "place_prob": 14.7
+        "place_prob": 14.8
       },
       {
         "horse_no": 9,
         "horse_name": "キミトヒカレ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 4.6,
-        "place_prob": 11.6
+        "win_prob": 4.9,
+        "place_prob": 12.2
       },
       {
         "horse_no": 11,
         "horse_name": "ノースバレリーナ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 3.4,
-        "place_prob": 8.5
+        "win_prob": 3.3,
+        "place_prob": 8.4
       },
       {
         "horse_no": 1,
@@ -1098,7 +1098,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 1.6,
-        "place_prob": 3.9
+        "place_prob": 4.0
       }
     ],
     "predictions_v2a": [
@@ -1108,14 +1108,14 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 12.8,
-        "place_prob": 32.0
+        "place_prob": 32.1
       },
       {
         "horse_no": 4,
         "horse_name": "イケノミセスグリン",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 12.7,
+        "win_prob": 12.8,
         "place_prob": 31.9
       },
       {
@@ -1124,7 +1124,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 12.7,
-        "place_prob": 31.7
+        "place_prob": 31.8
       },
       {
         "horse_no": 2,
@@ -1148,14 +1148,14 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 12.3,
-        "place_prob": 30.7
+        "place_prob": 30.8
       },
       {
         "horse_no": 11,
         "horse_name": "ノースバレリーナ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 12.1,
+        "win_prob": 12.2,
         "place_prob": 30.4
       },
       {
@@ -1164,7 +1164,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 12.0,
-        "place_prob": 30.1
+        "place_prob": 29.9
       }
     ],
     "odds_uren": {},
@@ -1251,14 +1251,14 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 22.2,
-        "place_prob": 55.4
+        "place_prob": 55.5
       },
       {
         "horse_no": 5,
         "horse_name": "リンネノハナドケイ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 5.7,
+        "win_prob": 5.6,
         "place_prob": 14.1
       },
       {
@@ -1275,7 +1275,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 3.0,
-        "place_prob": 7.6
+        "place_prob": 7.5
       },
       {
         "horse_no": 1,
@@ -1367,7 +1367,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 41.3,
-        "place_prob": 103.1
+        "place_prob": 103.2
       },
       {
         "horse_no": 8,
@@ -1383,15 +1383,15 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 21.3,
-        "place_prob": 53.2
+        "place_prob": 53.3
       },
       {
         "horse_no": 5,
         "horse_name": "リンネノハナドケイ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 5.1,
-        "place_prob": 12.8
+        "win_prob": 5.0,
+        "place_prob": 12.6
       },
       {
         "horse_no": 6,
@@ -1415,7 +1415,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 2.0,
-        "place_prob": 4.9
+        "place_prob": 5.0
       },
       {
         "horse_no": 7,
@@ -1465,7 +1465,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 3.7,
-        "place_prob": 9.2
+        "place_prob": 9.1
       },
       {
         "horse_no": 6,
@@ -1480,8 +1480,8 @@
         "horse_name": "ナインファースト",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 2.3,
-        "place_prob": 5.8
+        "win_prob": 2.4,
+        "place_prob": 5.9
       },
       {
         "horse_no": 7,
@@ -1625,16 +1625,16 @@
         "horse_name": "ベルバロン",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 53.5,
-        "place_prob": 133.7
+        "win_prob": 53.6,
+        "place_prob": 134.0
       },
       {
         "horse_no": 3,
         "horse_name": "ミスターキック",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 17.5,
-        "place_prob": 43.7
+        "win_prob": 17.2,
+        "place_prob": 43.0
       },
       {
         "horse_no": 4,
@@ -1642,23 +1642,23 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 11.6,
-        "place_prob": 29.4
+        "place_prob": 29.5
       },
       {
         "horse_no": 6,
         "horse_name": "フラワーステラ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 6.0,
-        "place_prob": 15.7
+        "win_prob": 6.1,
+        "place_prob": 16.0
       },
       {
         "horse_no": 5,
         "horse_name": "スウィンドル",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 4.5,
-        "place_prob": 11.9
+        "win_prob": 4.6,
+        "place_prob": 12.0
       },
       {
         "horse_no": 2,
@@ -1805,7 +1805,7 @@
         "horse_name": "リックスターク",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 1.8,
+        "win_prob": 1.7,
         "place_prob": 4.6
       },
       {
@@ -1823,16 +1823,16 @@
         "horse_name": "ベルバロン",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 44.5,
-        "place_prob": 111.2
+        "win_prob": 44.3,
+        "place_prob": 110.9
       },
       {
         "horse_no": 3,
         "horse_name": "ミスターキック",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 23.8,
-        "place_prob": 59.5
+        "win_prob": 23.7,
+        "place_prob": 59.3
       },
       {
         "horse_no": 4,
@@ -1840,15 +1840,15 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 12.9,
-        "place_prob": 32.3
+        "place_prob": 32.2
       },
       {
         "horse_no": 5,
         "horse_name": "スウィンドル",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 8.8,
-        "place_prob": 22.1
+        "win_prob": 9.0,
+        "place_prob": 22.4
       },
       {
         "horse_no": 6,
@@ -1871,8 +1871,8 @@
         "horse_name": "アンノウンヒーロー",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 2.7,
-        "place_prob": 6.6
+        "win_prob": 2.8,
+        "place_prob": 6.9
       },
       {
         "horse_no": 8,
@@ -2017,7 +2017,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 32.9,
-        "place_prob": 82.3
+        "place_prob": 82.2
       },
       {
         "horse_no": 3,
@@ -2032,8 +2032,8 @@
         "horse_name": "シャンアリーズ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 14.5,
-        "place_prob": 36.2
+        "win_prob": 14.6,
+        "place_prob": 36.4
       },
       {
         "horse_no": 4,
@@ -2057,7 +2057,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 5.2,
-        "place_prob": 13.1
+        "place_prob": 13.0
       },
       {
         "horse_no": 1,
@@ -2149,7 +2149,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 32.1,
-        "place_prob": 80.1
+        "place_prob": 80.2
       },
       {
         "horse_no": 3,
@@ -2157,7 +2157,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 25.7,
-        "place_prob": 64.2
+        "place_prob": 64.3
       },
       {
         "horse_no": 2,
@@ -2181,15 +2181,15 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 7.7,
-        "place_prob": 19.3
+        "place_prob": 19.4
       },
       {
         "horse_no": 8,
         "horse_name": "シャア",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 5.0,
-        "place_prob": 12.6
+        "win_prob": 4.9,
+        "place_prob": 12.3
       },
       {
         "horse_no": 6,
@@ -2215,7 +2215,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 34.2,
-        "place_prob": 85.6
+        "place_prob": 85.4
       },
       {
         "horse_no": 3,
@@ -2223,7 +2223,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 17.7,
-        "place_prob": 44.3
+        "place_prob": 44.2
       },
       {
         "horse_no": 2,
@@ -2246,16 +2246,16 @@
         "horse_name": "フレアリングバロン",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 9.8,
-        "place_prob": 24.5
+        "win_prob": 10.0,
+        "place_prob": 25.0
       },
       {
         "horse_no": 8,
         "horse_name": "シャア",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 8.1,
-        "place_prob": 20.2
+        "win_prob": 8.0,
+        "place_prob": 20.1
       },
       {
         "horse_no": 1,
@@ -2407,24 +2407,24 @@
         "horse_name": "カネトシセレスト",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 22.3,
-        "place_prob": 55.7
+        "win_prob": 22.1,
+        "place_prob": 55.4
       },
       {
         "horse_no": 3,
         "horse_name": "カスタネアローズ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 20.8,
-        "place_prob": 52.1
+        "win_prob": 20.9,
+        "place_prob": 52.2
       },
       {
         "horse_no": 5,
         "horse_name": "ハレタヒニ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 18.9,
-        "place_prob": 47.4
+        "win_prob": 19.0,
+        "place_prob": 47.5
       },
       {
         "horse_no": 7,
@@ -2432,7 +2432,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 16.6,
-        "place_prob": 41.5
+        "place_prob": 41.6
       },
       {
         "horse_no": 9,
@@ -2440,7 +2440,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 10.9,
-        "place_prob": 27.2
+        "place_prob": 27.3
       },
       {
         "horse_no": 1,
@@ -2539,32 +2539,32 @@
         "horse_name": "カネトシセレスト",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 21.6,
-        "place_prob": 54.0
+        "win_prob": 21.4,
+        "place_prob": 53.4
       },
       {
         "horse_no": 7,
         "horse_name": "バブリーダッシュ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 19.9,
-        "place_prob": 49.8
+        "win_prob": 20.0,
+        "place_prob": 50.0
       },
       {
         "horse_no": 3,
         "horse_name": "カスタネアローズ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 18.5,
-        "place_prob": 46.3
+        "win_prob": 18.6,
+        "place_prob": 46.5
       },
       {
         "horse_no": 5,
         "horse_name": "ハレタヒニ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 17.3,
-        "place_prob": 43.2
+        "win_prob": 17.4,
+        "place_prob": 43.4
       },
       {
         "horse_no": 9,
@@ -2572,7 +2572,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 11.8,
-        "place_prob": 29.4
+        "place_prob": 29.5
       },
       {
         "horse_no": 1,
@@ -2580,7 +2580,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 7.4,
-        "place_prob": 18.6
+        "place_prob": 18.4
       },
       {
         "horse_no": 11,
@@ -2588,7 +2588,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 2.1,
-        "place_prob": 5.1
+        "place_prob": 5.2
       },
       {
         "horse_no": 2,
@@ -2605,48 +2605,48 @@
         "horse_name": "カスタネアローズ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 22.4,
-        "place_prob": 56.0
+        "win_prob": 22.1,
+        "place_prob": 55.2
       },
       {
         "horse_no": 7,
         "horse_name": "バブリーダッシュ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 20.3,
-        "place_prob": 50.7
+        "win_prob": 20.6,
+        "place_prob": 51.5
       },
       {
         "horse_no": 4,
         "horse_name": "カネトシセレスト",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 19.1,
-        "place_prob": 47.8
+        "win_prob": 18.8,
+        "place_prob": 47.0
       },
       {
         "horse_no": 5,
         "horse_name": "ハレタヒニ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 18.2,
-        "place_prob": 45.5
+        "win_prob": 18.3,
+        "place_prob": 45.9
       },
       {
         "horse_no": 9,
         "horse_name": "キョウエイボンバー",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 9.7,
-        "place_prob": 24.3
+        "win_prob": 9.8,
+        "place_prob": 24.5
       },
       {
         "horse_no": 1,
         "horse_name": "サクラレイピア",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 6.2,
-        "place_prob": 15.5
+        "win_prob": 6.3,
+        "place_prob": 15.8
       },
       {
         "horse_no": 11,
@@ -2661,7 +2661,7 @@
         "horse_name": "ハッピーモカ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 1.9,
+        "win_prob": 2.0,
         "place_prob": 4.9
       }
     ],
@@ -2798,40 +2798,40 @@
         "horse_name": "キタサンモンドー",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 41.6,
-        "place_prob": 104.1
+        "win_prob": 41.5,
+        "place_prob": 103.8
       },
       {
         "horse_no": 6,
         "horse_name": "スーパーパーリー",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 24.5,
-        "place_prob": 61.3
+        "win_prob": 24.4,
+        "place_prob": 61.1
       },
       {
         "horse_no": 7,
         "horse_name": "コッチャン",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 12.4,
-        "place_prob": 31.1
+        "win_prob": 12.2,
+        "place_prob": 30.5
       },
       {
         "horse_no": 2,
         "horse_name": "ベラジオケンシロウ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 8.3,
-        "place_prob": 20.8
+        "win_prob": 8.1,
+        "place_prob": 20.3
       },
       {
         "horse_no": 8,
         "horse_name": "サクラキングリー",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 4.8,
-        "place_prob": 12.1
+        "win_prob": 5.1,
+        "place_prob": 12.8
       },
       {
         "horse_no": 3,
@@ -2839,15 +2839,15 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 3.6,
-        "place_prob": 9.0
+        "place_prob": 8.9
       },
       {
         "horse_no": 5,
         "horse_name": "アースリンゴ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 2.5,
-        "place_prob": 6.2
+        "win_prob": 2.9,
+        "place_prob": 7.1
       },
       {
         "horse_no": 4,
@@ -2855,7 +2855,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 2.2,
-        "place_prob": 5.5
+        "place_prob": 5.4
       }
     ],
     "predictions_a": [
@@ -2865,15 +2865,23 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 14.3,
-        "place_prob": 35.7
+        "place_prob": 35.8
       },
       {
         "horse_no": 7,
         "horse_name": "コッチャン",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 14.2,
-        "place_prob": 35.4
+        "win_prob": 13.4,
+        "place_prob": 33.4
+      },
+      {
+        "horse_no": 5,
+        "horse_name": "アースリンゴ",
+        "odds": 0.0,
+        "popularity": 999,
+        "win_prob": 13.2,
+        "place_prob": 33.1
       },
       {
         "horse_no": 3,
@@ -2881,15 +2889,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 12.9,
-        "place_prob": 32.2
-      },
-      {
-        "horse_no": 5,
-        "horse_name": "アースリンゴ",
-        "odds": 0.0,
-        "popularity": 999,
-        "win_prob": 12.6,
-        "place_prob": 31.6
+        "place_prob": 32.3
       },
       {
         "horse_no": 6,
@@ -2904,8 +2904,8 @@
         "horse_name": "サクラキングリー",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 11.7,
-        "place_prob": 29.4
+        "win_prob": 11.9,
+        "place_prob": 29.7
       },
       {
         "horse_no": 2,
@@ -2913,7 +2913,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 11.7,
-        "place_prob": 29.3
+        "place_prob": 29.2
       },
       {
         "horse_no": 4,
@@ -2921,7 +2921,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 10.4,
-        "place_prob": 25.9
+        "place_prob": 26.0
       }
     ],
     "predictions_s5": [
@@ -2930,82 +2930,16 @@
         "horse_name": "キタサンモンドー",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 44.9,
-        "place_prob": 112.3
+        "win_prob": 44.7,
+        "place_prob": 111.8
       },
       {
         "horse_no": 6,
         "horse_name": "スーパーパーリー",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 24.9,
-        "place_prob": 62.2
-      },
-      {
-        "horse_no": 7,
-        "horse_name": "コッチャン",
-        "odds": 0.0,
-        "popularity": 999,
-        "win_prob": 10.4,
-        "place_prob": 26.0
-      },
-      {
-        "horse_no": 2,
-        "horse_name": "ベラジオケンシロウ",
-        "odds": 0.0,
-        "popularity": 999,
-        "win_prob": 8.1,
-        "place_prob": 20.2
-      },
-      {
-        "horse_no": 8,
-        "horse_name": "サクラキングリー",
-        "odds": 0.0,
-        "popularity": 999,
-        "win_prob": 4.2,
-        "place_prob": 10.5
-      },
-      {
-        "horse_no": 3,
-        "horse_name": "グロリアスアスペン",
-        "odds": 0.0,
-        "popularity": 999,
-        "win_prob": 3.2,
-        "place_prob": 8.1
-      },
-      {
-        "horse_no": 5,
-        "horse_name": "アースリンゴ",
-        "odds": 0.0,
-        "popularity": 999,
-        "win_prob": 2.2,
-        "place_prob": 5.5
-      },
-      {
-        "horse_no": 4,
-        "horse_name": "ベストカリフ",
-        "odds": 0.0,
-        "popularity": 999,
-        "win_prob": 2.1,
-        "place_prob": 5.1
-      }
-    ],
-    "predictions_v2b": [
-      {
-        "horse_no": 1,
-        "horse_name": "キタサンモンドー",
-        "odds": 0.0,
-        "popularity": 999,
-        "win_prob": 47.6,
-        "place_prob": 119.0
-      },
-      {
-        "horse_no": 6,
-        "horse_name": "スーパーパーリー",
-        "odds": 0.0,
-        "popularity": 999,
-        "win_prob": 25.2,
-        "place_prob": 62.9
+        "win_prob": 25.1,
+        "place_prob": 62.8
       },
       {
         "horse_no": 7,
@@ -3020,24 +2954,90 @@
         "horse_name": "ベラジオケンシロウ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 4.7,
-        "place_prob": 11.8
-      },
-      {
-        "horse_no": 3,
-        "horse_name": "グロリアスアスペン",
-        "odds": 0.0,
-        "popularity": 999,
-        "win_prob": 4.7,
-        "place_prob": 11.8
+        "win_prob": 8.3,
+        "place_prob": 20.6
       },
       {
         "horse_no": 8,
         "horse_name": "サクラキングリー",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 4.0,
-        "place_prob": 10.0
+        "win_prob": 4.4,
+        "place_prob": 10.9
+      },
+      {
+        "horse_no": 3,
+        "horse_name": "グロリアスアスペン",
+        "odds": 0.0,
+        "popularity": 999,
+        "win_prob": 3.3,
+        "place_prob": 8.1
+      },
+      {
+        "horse_no": 5,
+        "horse_name": "アースリンゴ",
+        "odds": 0.0,
+        "popularity": 999,
+        "win_prob": 2.3,
+        "place_prob": 5.9
+      },
+      {
+        "horse_no": 4,
+        "horse_name": "ベストカリフ",
+        "odds": 0.0,
+        "popularity": 999,
+        "win_prob": 2.1,
+        "place_prob": 5.2
+      }
+    ],
+    "predictions_v2b": [
+      {
+        "horse_no": 1,
+        "horse_name": "キタサンモンドー",
+        "odds": 0.0,
+        "popularity": 999,
+        "win_prob": 47.7,
+        "place_prob": 119.1
+      },
+      {
+        "horse_no": 6,
+        "horse_name": "スーパーパーリー",
+        "odds": 0.0,
+        "popularity": 999,
+        "win_prob": 24.4,
+        "place_prob": 61.0
+      },
+      {
+        "horse_no": 7,
+        "horse_name": "コッチャン",
+        "odds": 0.0,
+        "popularity": 999,
+        "win_prob": 9.9,
+        "place_prob": 24.7
+      },
+      {
+        "horse_no": 3,
+        "horse_name": "グロリアスアスペン",
+        "odds": 0.0,
+        "popularity": 999,
+        "win_prob": 5.0,
+        "place_prob": 12.6
+      },
+      {
+        "horse_no": 2,
+        "horse_name": "ベラジオケンシロウ",
+        "odds": 0.0,
+        "popularity": 999,
+        "win_prob": 5.0,
+        "place_prob": 12.5
+      },
+      {
+        "horse_no": 8,
+        "horse_name": "サクラキングリー",
+        "odds": 0.0,
+        "popularity": 999,
+        "win_prob": 4.1,
+        "place_prob": 10.3
       },
       {
         "horse_no": 5,
@@ -3198,7 +3198,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 18.2,
-        "place_prob": 45.5
+        "place_prob": 45.6
       },
       {
         "horse_no": 2,
@@ -3206,7 +3206,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 16.8,
-        "place_prob": 42.0
+        "place_prob": 42.1
       },
       {
         "horse_no": 7,
@@ -3214,7 +3214,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 15.0,
-        "place_prob": 37.4
+        "place_prob": 37.5
       },
       {
         "horse_no": 9,
@@ -3222,15 +3222,15 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 10.5,
-        "place_prob": 26.2
+        "place_prob": 26.3
       },
       {
         "horse_no": 3,
         "horse_name": "アースコーリング",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 9.0,
-        "place_prob": 22.4
+        "win_prob": 8.9,
+        "place_prob": 22.2
       },
       {
         "horse_no": 6,
@@ -3321,16 +3321,16 @@
         "horse_name": "トーケンマコット",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 23.6,
-        "place_prob": 59.1
+        "win_prob": 23.7,
+        "place_prob": 59.2
       },
       {
         "horse_no": 5,
         "horse_name": "グレートスティック",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 21.0,
-        "place_prob": 52.6
+        "win_prob": 21.1,
+        "place_prob": 52.7
       },
       {
         "horse_no": 2,
@@ -3361,8 +3361,8 @@
         "horse_name": "アースコーリング",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 8.5,
-        "place_prob": 21.3
+        "win_prob": 8.4,
+        "place_prob": 21.0
       },
       {
         "horse_no": 6,
@@ -3387,48 +3387,48 @@
         "horse_name": "グレートスティック",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 23.4,
-        "place_prob": 58.5
+        "win_prob": 23.5,
+        "place_prob": 58.7
       },
       {
         "horse_no": 4,
         "horse_name": "トーケンマコット",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 21.5,
-        "place_prob": 53.9
+        "win_prob": 21.6,
+        "place_prob": 54.0
       },
       {
         "horse_no": 7,
         "horse_name": "ヨシノカムイ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 15.4,
-        "place_prob": 38.6
+        "win_prob": 15.2,
+        "place_prob": 38.0
       },
       {
         "horse_no": 2,
         "horse_name": "ワイルドラヴ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 14.0,
-        "place_prob": 35.1
-      },
-      {
-        "horse_no": 3,
-        "horse_name": "アースコーリング",
-        "odds": 0.0,
-        "popularity": 999,
-        "win_prob": 9.0,
-        "place_prob": 22.6
+        "win_prob": 14.1,
+        "place_prob": 35.2
       },
       {
         "horse_no": 9,
         "horse_name": "グラストップロード",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 9.0,
-        "place_prob": 22.4
+        "win_prob": 9.2,
+        "place_prob": 22.9
+      },
+      {
+        "horse_no": 3,
+        "horse_name": "アースコーリング",
+        "odds": 0.0,
+        "popularity": 999,
+        "win_prob": 8.9,
+        "place_prob": 22.3
       },
       {
         "horse_no": 6,
@@ -3580,16 +3580,16 @@
         "horse_name": "カツノトゥウェルヴ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 42.2,
-        "place_prob": 105.5
+        "win_prob": 42.3,
+        "place_prob": 105.9
       },
       {
         "horse_no": 1,
         "horse_name": "オギフシノチカイ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 29.9,
-        "place_prob": 74.7
+        "win_prob": 30.0,
+        "place_prob": 74.9
       },
       {
         "horse_no": 5,
@@ -3597,7 +3597,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 10.3,
-        "place_prob": 25.7
+        "place_prob": 25.8
       },
       {
         "horse_no": 3,
@@ -3605,15 +3605,15 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 10.1,
-        "place_prob": 25.2
+        "place_prob": 25.3
       },
       {
         "horse_no": 4,
         "horse_name": "シアーエレガンス",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 3.2,
-        "place_prob": 8.0
+        "win_prob": 3.1,
+        "place_prob": 7.8
       },
       {
         "horse_no": 7,
@@ -3624,16 +3624,16 @@
         "place_prob": 4.1
       },
       {
-        "horse_no": 9,
-        "horse_name": "フクノハリファ",
-        "odds": 0.0,
-        "popularity": 999,
-        "win_prob": 1.6,
-        "place_prob": 3.9
-      },
-      {
         "horse_no": 2,
         "horse_name": "エイシンキャノピー",
+        "odds": 0.0,
+        "popularity": 999,
+        "win_prob": 1.3,
+        "place_prob": 3.3
+      },
+      {
+        "horse_no": 9,
+        "horse_name": "フクノハリファ",
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 1.2,
@@ -3655,7 +3655,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 14.4,
-        "place_prob": 36.0
+        "place_prob": 36.1
       },
       {
         "horse_no": 3,
@@ -3663,14 +3663,14 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 13.1,
-        "place_prob": 32.7
+        "place_prob": 32.8
       },
       {
         "horse_no": 5,
         "horse_name": "イイデスカイハイ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 13.0,
+        "win_prob": 13.1,
         "place_prob": 32.6
       },
       {
@@ -3678,15 +3678,15 @@
         "horse_name": "フクノハリファ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 11.9,
-        "place_prob": 29.7
+        "win_prob": 11.8,
+        "place_prob": 29.4
       },
       {
         "horse_no": 4,
         "horse_name": "シアーエレガンス",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 11.6,
+        "win_prob": 11.7,
         "place_prob": 29.1
       },
       {
@@ -3703,7 +3703,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 10.3,
-        "place_prob": 25.8
+        "place_prob": 25.9
       }
     ],
     "predictions_s5": [
@@ -3712,16 +3712,16 @@
         "horse_name": "カツノトゥウェルヴ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 40.3,
-        "place_prob": 100.7
+        "win_prob": 40.4,
+        "place_prob": 101.1
       },
       {
         "horse_no": 1,
         "horse_name": "オギフシノチカイ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 33.9,
-        "place_prob": 84.7
+        "win_prob": 34.0,
+        "place_prob": 85.0
       },
       {
         "horse_no": 5,
@@ -3729,7 +3729,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 9.5,
-        "place_prob": 23.7
+        "place_prob": 23.8
       },
       {
         "horse_no": 3,
@@ -3737,14 +3737,14 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 9.5,
-        "place_prob": 23.6
+        "place_prob": 23.7
       },
       {
         "horse_no": 4,
         "horse_name": "シアーエレガンス",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 2.6,
+        "win_prob": 2.5,
         "place_prob": 6.4
       },
       {
@@ -3760,8 +3760,8 @@
         "horse_name": "フクノハリファ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 1.6,
-        "place_prob": 4.0
+        "win_prob": 1.2,
+        "place_prob": 3.0
       },
       {
         "horse_no": 2,
@@ -3769,7 +3769,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 1.0,
-        "place_prob": 2.5
+        "place_prob": 2.6
       }
     ],
     "predictions_v2b": [
@@ -3779,15 +3779,15 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 39.0,
-        "place_prob": 97.5
+        "place_prob": 97.6
       },
       {
         "horse_no": 1,
         "horse_name": "オギフシノチカイ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 37.4,
-        "place_prob": 93.5
+        "win_prob": 38.0,
+        "place_prob": 94.9
       },
       {
         "horse_no": 3,
@@ -3811,15 +3811,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 3.8,
-        "place_prob": 9.6
-      },
-      {
-        "horse_no": 9,
-        "horse_name": "フクノハリファ",
-        "odds": 0.0,
-        "popularity": 999,
-        "win_prob": 2.2,
-        "place_prob": 5.6
+        "place_prob": 9.4
       },
       {
         "horse_no": 7,
@@ -3827,6 +3819,14 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 1.7,
+        "place_prob": 4.1
+      },
+      {
+        "horse_no": 9,
+        "horse_name": "フクノハリファ",
+        "odds": 0.0,
+        "popularity": 999,
+        "win_prob": 1.6,
         "place_prob": 4.1
       },
       {
@@ -3840,14 +3840,6 @@
     ],
     "predictions_v2a": [
       {
-        "horse_no": 9,
-        "horse_name": "フクノハリファ",
-        "odds": 0.0,
-        "popularity": 999,
-        "win_prob": 12.8,
-        "place_prob": 32.1
-      },
-      {
         "horse_no": 1,
         "horse_name": "オギフシノチカイ",
         "odds": 0.0,
@@ -3858,6 +3850,14 @@
       {
         "horse_no": 7,
         "horse_name": "ジャックルージュ",
+        "odds": 0.0,
+        "popularity": 999,
+        "win_prob": 12.8,
+        "place_prob": 31.9
+      },
+      {
+        "horse_no": 9,
+        "horse_name": "フクノハリファ",
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 12.8,
@@ -3971,39 +3971,39 @@
         "horse_name": "ニシケンカバル",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 33.1,
-        "place_prob": 82.8
+        "win_prob": 33.0,
+        "place_prob": 82.6
       },
       {
         "horse_no": 2,
         "horse_name": "ロアリングフレイム",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 19.4,
-        "place_prob": 48.4
-      },
-      {
-        "horse_no": 5,
-        "horse_name": "ディープレゼント",
-        "odds": 0.0,
-        "popularity": 999,
-        "win_prob": 15.2,
-        "place_prob": 37.9
+        "win_prob": 19.3,
+        "place_prob": 48.3
       },
       {
         "horse_no": 1,
         "horse_name": "コパノアルベール",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 15.0,
-        "place_prob": 37.5
+        "win_prob": 15.2,
+        "place_prob": 38.0
+      },
+      {
+        "horse_no": 5,
+        "horse_name": "ディープレゼント",
+        "odds": 0.0,
+        "popularity": 999,
+        "win_prob": 15.1,
+        "place_prob": 37.8
       },
       {
         "horse_no": 6,
         "horse_name": "ササキンメロディ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 12.8,
+        "win_prob": 12.7,
         "place_prob": 31.9
       },
       {
@@ -4012,7 +4012,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 2.2,
-        "place_prob": 5.5
+        "place_prob": 5.4
       },
       {
         "horse_no": 8,
@@ -4020,7 +4020,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 1.3,
-        "place_prob": 3.1
+        "place_prob": 3.2
       },
       {
         "horse_no": 7,
@@ -4103,24 +4103,24 @@
         "horse_name": "ニシケンカバル",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 31.8,
-        "place_prob": 79.5
+        "win_prob": 31.9,
+        "place_prob": 79.8
       },
       {
         "horse_no": 2,
         "horse_name": "ロアリングフレイム",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 19.1,
-        "place_prob": 47.8
+        "win_prob": 19.2,
+        "place_prob": 47.9
       },
       {
         "horse_no": 1,
         "horse_name": "コパノアルベール",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 15.1,
-        "place_prob": 37.9
+        "win_prob": 15.2,
+        "place_prob": 38.0
       },
       {
         "horse_no": 5,
@@ -4128,15 +4128,15 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 15.0,
-        "place_prob": 37.4
+        "place_prob": 37.6
       },
       {
         "horse_no": 6,
         "horse_name": "ササキンメロディ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 14.9,
-        "place_prob": 37.3
+        "win_prob": 14.6,
+        "place_prob": 36.6
       },
       {
         "horse_no": 3,
@@ -4151,7 +4151,7 @@
         "horse_name": "ロビンバローズ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 1.2,
+        "win_prob": 1.3,
         "place_prob": 3.1
       },
       {
@@ -4178,31 +4178,31 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 21.4,
-        "place_prob": 53.4
+        "place_prob": 53.5
       },
       {
         "horse_no": 6,
         "horse_name": "ササキンメロディ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 17.5,
-        "place_prob": 43.7
+        "win_prob": 16.9,
+        "place_prob": 42.3
       },
       {
         "horse_no": 1,
         "horse_name": "コパノアルベール",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 14.1,
-        "place_prob": 35.3
+        "win_prob": 14.4,
+        "place_prob": 35.9
       },
       {
         "horse_no": 5,
         "horse_name": "ディープレゼント",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 13.3,
-        "place_prob": 33.3
+        "win_prob": 13.6,
+        "place_prob": 34.0
       },
       {
         "horse_no": 3,
@@ -4217,8 +4217,8 @@
         "horse_name": "ロビンバローズ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 2.2,
-        "place_prob": 5.6
+        "win_prob": 2.3,
+        "place_prob": 5.7
       },
       {
         "horse_no": 7,
@@ -4363,7 +4363,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 43.4,
-        "place_prob": 108.6
+        "place_prob": 108.5
       },
       {
         "horse_no": 6,
@@ -4402,8 +4402,8 @@
         "horse_name": "イケメンパリピ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 5.5,
-        "place_prob": 13.8
+        "win_prob": 5.6,
+        "place_prob": 14.0
       },
       {
         "horse_no": 3,
@@ -4535,15 +4535,15 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 4.3,
-        "place_prob": 10.6
+        "place_prob": 10.7
       },
       {
         "horse_no": 3,
         "horse_name": "トーセンジャック",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 3.8,
-        "place_prob": 9.4
+        "win_prob": 3.7,
+        "place_prob": 9.3
       },
       {
         "horse_no": 1,
@@ -4560,24 +4560,24 @@
         "horse_name": "カツノトキメキ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 38.6,
-        "place_prob": 96.5
+        "win_prob": 38.1,
+        "place_prob": 95.2
       },
       {
         "horse_no": 6,
         "horse_name": "ミソタロ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 26.5,
-        "place_prob": 66.2
+        "win_prob": 26.6,
+        "place_prob": 66.6
       },
       {
         "horse_no": 2,
         "horse_name": "フォレストゲート",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 10.5,
-        "place_prob": 26.2
+        "win_prob": 10.8,
+        "place_prob": 26.9
       },
       {
         "horse_no": 4,
@@ -4585,15 +4585,15 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 8.8,
-        "place_prob": 22.0
+        "place_prob": 21.9
       },
       {
         "horse_no": 8,
         "horse_name": "イケメンパリピ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 7.9,
-        "place_prob": 19.8
+        "win_prob": 8.0,
+        "place_prob": 20.1
       },
       {
         "horse_no": 7,
@@ -4601,7 +4601,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 4.4,
-        "place_prob": 11.0
+        "place_prob": 11.1
       },
       {
         "horse_no": 3,
@@ -4609,7 +4609,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 2.4,
-        "place_prob": 6.1
+        "place_prob": 6.0
       },
       {
         "horse_no": 1,
@@ -4753,40 +4753,40 @@
         "horse_name": "キタノクーヴェル",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 25.9,
-        "place_prob": 64.9
+        "win_prob": 26.1,
+        "place_prob": 65.2
       },
       {
         "horse_no": 4,
         "horse_name": "ティーライトニング",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 19.5,
-        "place_prob": 48.8
+        "win_prob": 20.0,
+        "place_prob": 50.0
       },
       {
         "horse_no": 2,
         "horse_name": "ラブラブバゴバゴ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 17.5,
-        "place_prob": 43.7
+        "win_prob": 16.9,
+        "place_prob": 42.3
       },
       {
         "horse_no": 1,
         "horse_name": "ネイビス",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 14.1,
-        "place_prob": 35.3
+        "win_prob": 13.8,
+        "place_prob": 34.6
       },
       {
         "horse_no": 3,
         "horse_name": "グレイスショコラ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 6.4,
-        "place_prob": 16.0
+        "win_prob": 7.1,
+        "place_prob": 17.7
       },
       {
         "horse_no": 5,
@@ -4797,20 +4797,20 @@
         "place_prob": 15.1
       },
       {
-        "horse_no": 9,
-        "horse_name": "リーガルスピード",
-        "odds": 0.0,
-        "popularity": 999,
-        "win_prob": 5.4,
-        "place_prob": 13.4
-      },
-      {
         "horse_no": 6,
         "horse_name": "フェアリー",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 5.1,
-        "place_prob": 12.8
+        "win_prob": 5.2,
+        "place_prob": 13.1
+      },
+      {
+        "horse_no": 9,
+        "horse_name": "リーガルスピード",
+        "odds": 0.0,
+        "popularity": 999,
+        "win_prob": 4.8,
+        "place_prob": 11.9
       }
     ],
     "predictions_a": [
@@ -4819,20 +4819,28 @@
         "horse_name": "レイズルノワール",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 14.0,
-        "place_prob": 35.0
+        "win_prob": 14.1,
+        "place_prob": 35.2
       },
       {
         "horse_no": 4,
         "horse_name": "ティーライトニング",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 13.6,
-        "place_prob": 33.9
+        "win_prob": 13.5,
+        "place_prob": 33.8
       },
       {
         "horse_no": 1,
         "horse_name": "ネイビス",
+        "odds": 0.0,
+        "popularity": 999,
+        "win_prob": 12.6,
+        "place_prob": 31.5
+      },
+      {
+        "horse_no": 9,
+        "horse_name": "リーガルスピード",
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 12.5,
@@ -4847,20 +4855,12 @@
         "place_prob": 31.2
       },
       {
-        "horse_no": 9,
-        "horse_name": "リーガルスピード",
-        "odds": 0.0,
-        "popularity": 999,
-        "win_prob": 12.5,
-        "place_prob": 31.1
-      },
-      {
         "horse_no": 2,
         "horse_name": "ラブラブバゴバゴ",
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 12.2,
-        "place_prob": 30.4
+        "place_prob": 30.6
       },
       {
         "horse_no": 6,
@@ -4868,15 +4868,15 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 11.6,
-        "place_prob": 28.9
+        "place_prob": 29.1
       },
       {
         "horse_no": 3,
         "horse_name": "グレイスショコラ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 11.2,
-        "place_prob": 28.1
+        "win_prob": 10.9,
+        "place_prob": 27.2
       }
     ],
     "predictions_s5": [
@@ -4885,64 +4885,64 @@
         "horse_name": "キタノクーヴェル",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 29.2,
-        "place_prob": 73.1
+        "win_prob": 34.5,
+        "place_prob": 86.3
       },
       {
         "horse_no": 4,
         "horse_name": "ティーライトニング",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 18.9,
-        "place_prob": 47.2
+        "win_prob": 18.4,
+        "place_prob": 46.0
       },
       {
         "horse_no": 1,
         "horse_name": "ネイビス",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 14.9,
-        "place_prob": 37.4
+        "win_prob": 13.5,
+        "place_prob": 33.8
       },
       {
         "horse_no": 2,
         "horse_name": "ラブラブバゴバゴ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 13.9,
-        "place_prob": 34.7
+        "win_prob": 12.5,
+        "place_prob": 31.4
       },
       {
         "horse_no": 5,
         "horse_name": "レイズルノワール",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 7.5,
-        "place_prob": 18.6
-      },
-      {
-        "horse_no": 9,
-        "horse_name": "リーガルスピード",
-        "odds": 0.0,
-        "popularity": 999,
-        "win_prob": 5.3,
-        "place_prob": 13.2
-      },
-      {
-        "horse_no": 6,
-        "horse_name": "フェアリー",
-        "odds": 0.0,
-        "popularity": 999,
-        "win_prob": 5.3,
-        "place_prob": 13.2
+        "win_prob": 6.3,
+        "place_prob": 15.7
       },
       {
         "horse_no": 3,
         "horse_name": "グレイスショコラ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 5.0,
-        "place_prob": 12.6
+        "win_prob": 5.6,
+        "place_prob": 13.9
+      },
+      {
+        "horse_no": 9,
+        "horse_name": "リーガルスピード",
+        "odds": 0.0,
+        "popularity": 999,
+        "win_prob": 4.7,
+        "place_prob": 11.7
+      },
+      {
+        "horse_no": 6,
+        "horse_name": "フェアリー",
+        "odds": 0.0,
+        "popularity": 999,
+        "win_prob": 4.6,
+        "place_prob": 11.4
       }
     ],
     "predictions_v2b": [
@@ -4951,64 +4951,64 @@
         "horse_name": "キタノクーヴェル",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 24.7,
-        "place_prob": 61.8
+        "win_prob": 24.5,
+        "place_prob": 61.3
       },
       {
         "horse_no": 4,
         "horse_name": "ティーライトニング",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 22.6,
-        "place_prob": 56.5
+        "win_prob": 21.5,
+        "place_prob": 53.8
       },
       {
         "horse_no": 2,
         "horse_name": "ラブラブバゴバゴ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 15.7,
-        "place_prob": 39.3
-      },
-      {
-        "horse_no": 1,
-        "horse_name": "ネイビス",
-        "odds": 0.0,
-        "popularity": 999,
-        "win_prob": 9.8,
-        "place_prob": 24.5
+        "win_prob": 15.0,
+        "place_prob": 37.6
       },
       {
         "horse_no": 3,
         "horse_name": "グレイスショコラ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 8.2,
-        "place_prob": 20.5
+        "win_prob": 11.3,
+        "place_prob": 28.2
+      },
+      {
+        "horse_no": 1,
+        "horse_name": "ネイビス",
+        "odds": 0.0,
+        "popularity": 999,
+        "win_prob": 9.4,
+        "place_prob": 23.5
       },
       {
         "horse_no": 5,
         "horse_name": "レイズルノワール",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 8.0,
-        "place_prob": 19.9
+        "win_prob": 7.7,
+        "place_prob": 19.3
       },
       {
         "horse_no": 9,
         "horse_name": "リーガルスピード",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 5.8,
-        "place_prob": 14.6
+        "win_prob": 5.5,
+        "place_prob": 13.7
       },
       {
         "horse_no": 6,
         "horse_name": "フェアリー",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 5.2,
-        "place_prob": 12.9
+        "win_prob": 5.1,
+        "place_prob": 12.7
       }
     ],
     "predictions_v2a": [
@@ -5144,64 +5144,64 @@
         "horse_name": "サマーブライド",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 25.3,
-        "place_prob": 63.1
+        "win_prob": 23.6,
+        "place_prob": 58.9
       },
       {
         "horse_no": 4,
         "horse_name": "ヤマト",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 18.2,
-        "place_prob": 45.5
+        "win_prob": 23.0,
+        "place_prob": 57.4
       },
       {
         "horse_no": 5,
         "horse_name": "ヴェニーレ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 16.1,
-        "place_prob": 40.2
+        "win_prob": 14.9,
+        "place_prob": 37.2
       },
       {
         "horse_no": 2,
         "horse_name": "キッカケ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 11.7,
-        "place_prob": 29.3
+        "win_prob": 14.7,
+        "place_prob": 36.6
       },
       {
         "horse_no": 7,
         "horse_name": "ヤマニンエピクーレ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 10.5,
-        "place_prob": 26.2
+        "win_prob": 8.7,
+        "place_prob": 21.7
       },
       {
         "horse_no": 3,
         "horse_name": "モレッキ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 9.1,
-        "place_prob": 22.7
-      },
-      {
-        "horse_no": 9,
-        "horse_name": "パラジウムリボン",
-        "odds": 0.0,
-        "popularity": 999,
-        "win_prob": 5.0,
-        "place_prob": 12.6
+        "win_prob": 8.3,
+        "place_prob": 20.7
       },
       {
         "horse_no": 6,
         "horse_name": "ヒャクメガショック",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 4.1,
-        "place_prob": 10.4
+        "win_prob": 3.7,
+        "place_prob": 9.3
+      },
+      {
+        "horse_no": 9,
+        "horse_name": "パラジウムリボン",
+        "odds": 0.0,
+        "popularity": 999,
+        "win_prob": 3.3,
+        "place_prob": 8.3
       }
     ],
     "predictions_a": [
@@ -5210,15 +5210,15 @@
         "horse_name": "ヒャクメガショック",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 14.0,
-        "place_prob": 35.1
+        "win_prob": 14.1,
+        "place_prob": 35.2
       },
       {
         "horse_no": 1,
         "horse_name": "サマーブライド",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 13.7,
+        "win_prob": 13.6,
         "place_prob": 34.1
       },
       {
@@ -5226,114 +5226,114 @@
         "horse_name": "ヤマト",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 13.1,
-        "place_prob": 32.7
+        "win_prob": 13.0,
+        "place_prob": 32.5
       },
       {
         "horse_no": 9,
         "horse_name": "パラジウムリボン",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 12.8,
-        "place_prob": 32.0
+        "win_prob": 12.9,
+        "place_prob": 32.3
       },
       {
         "horse_no": 7,
         "horse_name": "ヤマニンエピクーレ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 12.6,
-        "place_prob": 31.4
+        "win_prob": 12.5,
+        "place_prob": 31.2
       },
       {
         "horse_no": 5,
         "horse_name": "ヴェニーレ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 12.2,
-        "place_prob": 30.6
+        "win_prob": 12.3,
+        "place_prob": 30.7
       },
       {
         "horse_no": 2,
         "horse_name": "キッカケ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 11.4,
-        "place_prob": 28.5
+        "win_prob": 11.3,
+        "place_prob": 28.3
       },
       {
         "horse_no": 3,
         "horse_name": "モレッキ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 10.2,
+        "win_prob": 10.3,
         "place_prob": 25.6
       }
     ],
     "predictions_s5": [
       {
-        "horse_no": 1,
-        "horse_name": "サマーブライド",
-        "odds": 0.0,
-        "popularity": 999,
-        "win_prob": 24.4,
-        "place_prob": 61.1
-      },
-      {
         "horse_no": 4,
         "horse_name": "ヤマト",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 20.0,
-        "place_prob": 49.9
+        "win_prob": 25.0,
+        "place_prob": 62.5
+      },
+      {
+        "horse_no": 1,
+        "horse_name": "サマーブライド",
+        "odds": 0.0,
+        "popularity": 999,
+        "win_prob": 22.5,
+        "place_prob": 56.3
       },
       {
         "horse_no": 5,
         "horse_name": "ヴェニーレ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 15.9,
-        "place_prob": 39.8
+        "win_prob": 15.1,
+        "place_prob": 37.7
       },
       {
         "horse_no": 2,
         "horse_name": "キッカケ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 12.1,
-        "place_prob": 30.2
-      },
-      {
-        "horse_no": 7,
-        "horse_name": "ヤマニンエピクーレ",
-        "odds": 0.0,
-        "popularity": 999,
-        "win_prob": 10.1,
-        "place_prob": 25.3
+        "win_prob": 14.3,
+        "place_prob": 35.9
       },
       {
         "horse_no": 3,
         "horse_name": "モレッキ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 8.8,
-        "place_prob": 22.0
+        "win_prob": 8.2,
+        "place_prob": 20.6
+      },
+      {
+        "horse_no": 7,
+        "horse_name": "ヤマニンエピクーレ",
+        "odds": 0.0,
+        "popularity": 999,
+        "win_prob": 7.7,
+        "place_prob": 19.2
       },
       {
         "horse_no": 9,
         "horse_name": "パラジウムリボン",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 5.0,
-        "place_prob": 12.6
+        "win_prob": 3.8,
+        "place_prob": 9.6
       },
       {
         "horse_no": 6,
         "horse_name": "ヒャクメガショック",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 3.6,
-        "place_prob": 9.0
+        "win_prob": 3.3,
+        "place_prob": 8.3
       }
     ],
     "predictions_v2b": [
@@ -5342,64 +5342,64 @@
         "horse_name": "ヤマト",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 27.9,
-        "place_prob": 69.7
+        "win_prob": 30.5,
+        "place_prob": 76.4
       },
       {
         "horse_no": 1,
         "horse_name": "サマーブライド",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 24.7,
-        "place_prob": 61.7
+        "win_prob": 23.6,
+        "place_prob": 59.0
       },
       {
         "horse_no": 5,
         "horse_name": "ヴェニーレ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 13.7,
-        "place_prob": 34.2
+        "win_prob": 12.9,
+        "place_prob": 32.3
       },
       {
         "horse_no": 3,
         "horse_name": "モレッキ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 10.8,
-        "place_prob": 27.0
+        "win_prob": 10.2,
+        "place_prob": 25.5
       },
       {
         "horse_no": 7,
         "horse_name": "ヤマニンエピクーレ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 8.4,
-        "place_prob": 21.0
-      },
-      {
-        "horse_no": 6,
-        "horse_name": "ヒャクメガショック",
-        "odds": 0.0,
-        "popularity": 999,
-        "win_prob": 5.5,
-        "place_prob": 13.8
+        "win_prob": 7.2,
+        "place_prob": 17.9
       },
       {
         "horse_no": 2,
         "horse_name": "キッカケ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 5.4,
-        "place_prob": 13.5
+        "win_prob": 6.9,
+        "place_prob": 17.3
+      },
+      {
+        "horse_no": 6,
+        "horse_name": "ヒャクメガショック",
+        "odds": 0.0,
+        "popularity": 999,
+        "win_prob": 5.2,
+        "place_prob": 13.1
       },
       {
         "horse_no": 9,
         "horse_name": "パラジウムリボン",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 3.7,
-        "place_prob": 9.2
+        "win_prob": 3.4,
+        "place_prob": 8.4
       }
     ],
     "predictions_v2a": [
@@ -5535,40 +5535,48 @@
         "horse_name": "シアトルプリンセス",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 44.6,
-        "place_prob": 111.5
+        "win_prob": 41.3,
+        "place_prob": 103.3
       },
       {
         "horse_no": 2,
         "horse_name": "ビアンカ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 14.6,
-        "place_prob": 36.6
+        "win_prob": 16.2,
+        "place_prob": 40.6
       },
       {
         "horse_no": 3,
         "horse_name": "サクラカゼ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 12.4,
-        "place_prob": 31.0
+        "win_prob": 11.9,
+        "place_prob": 29.8
       },
       {
         "horse_no": 9,
         "horse_name": "クレナイノヒメ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 7.3,
-        "place_prob": 18.2
+        "win_prob": 7.2,
+        "place_prob": 18.0
       },
       {
         "horse_no": 6,
         "horse_name": "テーオーカバリエ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 5.9,
-        "place_prob": 14.7
+        "win_prob": 7.1,
+        "place_prob": 17.8
+      },
+      {
+        "horse_no": 4,
+        "horse_name": "エイシンヌチマシヌ",
+        "odds": 0.0,
+        "popularity": 999,
+        "win_prob": 5.5,
+        "place_prob": 13.8
       },
       {
         "horse_no": 5,
@@ -5576,23 +5584,15 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 5.4,
-        "place_prob": 13.5
+        "place_prob": 13.6
       },
       {
         "horse_no": 7,
         "horse_name": "ピースワンドルチェ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 5.3,
-        "place_prob": 13.2
-      },
-      {
-        "horse_no": 4,
-        "horse_name": "エイシンヌチマシヌ",
-        "odds": 0.0,
-        "popularity": 999,
-        "win_prob": 4.6,
-        "place_prob": 11.4
+        "win_prob": 5.2,
+        "place_prob": 13.1
       }
     ],
     "predictions_a": [
@@ -5601,24 +5601,24 @@
         "horse_name": "シアトルプリンセス",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 17.6,
-        "place_prob": 44.0
+        "win_prob": 17.2,
+        "place_prob": 43.1
       },
       {
         "horse_no": 9,
         "horse_name": "クレナイノヒメ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 12.6,
-        "place_prob": 31.5
+        "win_prob": 13.1,
+        "place_prob": 32.8
       },
       {
         "horse_no": 7,
         "horse_name": "ピースワンドルチェ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 12.2,
-        "place_prob": 30.6
+        "win_prob": 12.3,
+        "place_prob": 30.8
       },
       {
         "horse_no": 2,
@@ -5633,32 +5633,32 @@
         "horse_name": "サクラカゼ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 12.1,
-        "place_prob": 30.3
+        "win_prob": 11.9,
+        "place_prob": 29.7
       },
       {
         "horse_no": 6,
         "horse_name": "テーオーカバリエ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 11.7,
-        "place_prob": 29.3
+        "win_prob": 11.8,
+        "place_prob": 29.5
       },
       {
         "horse_no": 5,
         "horse_name": "バードハズフロウン",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 11.1,
-        "place_prob": 27.8
+        "win_prob": 11.2,
+        "place_prob": 28.0
       },
       {
         "horse_no": 4,
         "horse_name": "エイシンヌチマシヌ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 10.4,
-        "place_prob": 26.1
+        "win_prob": 10.3,
+        "place_prob": 25.7
       }
     ],
     "predictions_s5": [
@@ -5667,64 +5667,64 @@
         "horse_name": "シアトルプリンセス",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 42.4,
-        "place_prob": 106.0
+        "win_prob": 41.8,
+        "place_prob": 104.4
       },
       {
         "horse_no": 2,
         "horse_name": "ビアンカ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 15.8,
-        "place_prob": 39.4
+        "win_prob": 15.9,
+        "place_prob": 39.7
       },
       {
         "horse_no": 3,
         "horse_name": "サクラカゼ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 11.2,
-        "place_prob": 28.0
+        "win_prob": 10.3,
+        "place_prob": 25.7
       },
       {
         "horse_no": 9,
         "horse_name": "クレナイノヒメ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 8.5,
-        "place_prob": 21.2
+        "win_prob": 8.2,
+        "place_prob": 20.6
       },
       {
         "horse_no": 5,
         "horse_name": "バードハズフロウン",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 6.9,
-        "place_prob": 17.2
+        "win_prob": 6.7,
+        "place_prob": 16.7
       },
       {
         "horse_no": 7,
         "horse_name": "ピースワンドルチェ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 6.7,
-        "place_prob": 16.7
+        "win_prob": 6.5,
+        "place_prob": 16.3
       },
       {
         "horse_no": 6,
         "horse_name": "テーオーカバリエ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 4.5,
-        "place_prob": 11.2
+        "win_prob": 5.6,
+        "place_prob": 14.0
       },
       {
         "horse_no": 4,
         "horse_name": "エイシンヌチマシヌ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 4.1,
-        "place_prob": 10.3
+        "win_prob": 5.0,
+        "place_prob": 12.5
       }
     ],
     "predictions_v2b": [
@@ -5733,64 +5733,64 @@
         "horse_name": "シアトルプリンセス",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 24.4,
-        "place_prob": 61.0
+        "win_prob": 24.9,
+        "place_prob": 62.4
       },
       {
         "horse_no": 2,
         "horse_name": "ビアンカ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 21.0,
-        "place_prob": 52.5
-      },
-      {
-        "horse_no": 3,
-        "horse_name": "サクラカゼ",
-        "odds": 0.0,
-        "popularity": 999,
-        "win_prob": 11.4,
-        "place_prob": 28.5
+        "win_prob": 20.2,
+        "place_prob": 50.5
       },
       {
         "horse_no": 9,
         "horse_name": "クレナイノヒメ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 11.1,
-        "place_prob": 27.7
+        "win_prob": 11.4,
+        "place_prob": 28.5
       },
       {
         "horse_no": 5,
         "horse_name": "バードハズフロウン",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 9.4,
-        "place_prob": 23.5
-      },
-      {
-        "horse_no": 7,
-        "horse_name": "ピースワンドルチェ",
-        "odds": 0.0,
-        "popularity": 999,
-        "win_prob": 9.1,
-        "place_prob": 22.7
+        "win_prob": 9.7,
+        "place_prob": 24.1
       },
       {
         "horse_no": 6,
         "horse_name": "テーオーカバリエ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 7.6,
-        "place_prob": 19.0
+        "win_prob": 9.5,
+        "place_prob": 23.8
+      },
+      {
+        "horse_no": 7,
+        "horse_name": "ピースワンドルチェ",
+        "odds": 0.0,
+        "popularity": 999,
+        "win_prob": 9.4,
+        "place_prob": 23.4
+      },
+      {
+        "horse_no": 3,
+        "horse_name": "サクラカゼ",
+        "odds": 0.0,
+        "popularity": 999,
+        "win_prob": 8.6,
+        "place_prob": 21.4
       },
       {
         "horse_no": 4,
         "horse_name": "エイシンヌチマシヌ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 6.1,
-        "place_prob": 15.2
+        "win_prob": 6.4,
+        "place_prob": 15.9
       }
     ],
     "predictions_v2a": [
@@ -5808,15 +5808,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 13.2,
-        "place_prob": 33.0
-      },
-      {
-        "horse_no": 3,
-        "horse_name": "サクラカゼ",
-        "odds": 0.0,
-        "popularity": 999,
-        "win_prob": 12.6,
-        "place_prob": 31.5
+        "place_prob": 33.1
       },
       {
         "horse_no": 9,
@@ -5824,7 +5816,15 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 12.5,
-        "place_prob": 31.3
+        "place_prob": 31.4
+      },
+      {
+        "horse_no": 3,
+        "horse_name": "サクラカゼ",
+        "odds": 0.0,
+        "popularity": 999,
+        "win_prob": 12.5,
+        "place_prob": 31.2
       },
       {
         "horse_no": 7,
@@ -5855,8 +5855,8 @@
         "horse_name": "エイシンヌチマシヌ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 11.9,
-        "place_prob": 29.8
+        "win_prob": 12.0,
+        "place_prob": 29.9
       }
     ],
     "odds_uren": {},
@@ -5926,8 +5926,8 @@
         "horse_name": "シノブデスティーノ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 60.0,
-        "place_prob": 149.9
+        "win_prob": 59.9,
+        "place_prob": 149.8
       },
       {
         "horse_no": 4,
@@ -5935,22 +5935,22 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 10.8,
-        "place_prob": 30.3
+        "place_prob": 30.2
       },
       {
         "horse_no": 3,
         "horse_name": "スリアント",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 8.7,
-        "place_prob": 24.5
+        "win_prob": 8.8,
+        "place_prob": 24.8
       },
       {
         "horse_no": 6,
         "horse_name": "アビレ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 6.7,
+        "win_prob": 6.6,
         "place_prob": 19.0
       },
       {
@@ -6058,24 +6058,24 @@
         "horse_name": "シノブデスティーノ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 60.2,
-        "place_prob": 150.5
+        "win_prob": 60.1,
+        "place_prob": 150.3
       },
       {
         "horse_no": 4,
         "horse_name": "ショウリュウテン",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 11.0,
-        "place_prob": 31.1
+        "win_prob": 11.1,
+        "place_prob": 31.2
       },
       {
         "horse_no": 3,
         "horse_name": "スリアント",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 7.7,
-        "place_prob": 22.1
+        "win_prob": 7.8,
+        "place_prob": 22.2
       },
       {
         "horse_no": 6,
@@ -6099,7 +6099,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 4.0,
-        "place_prob": 11.6
+        "place_prob": 11.5
       },
       {
         "horse_no": 2,
@@ -6115,7 +6115,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 2.8,
-        "place_prob": 8.2
+        "place_prob": 8.1
       }
     ],
     "predictions_v2b": [
@@ -6124,24 +6124,24 @@
         "horse_name": "シノブデスティーノ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 42.0,
-        "place_prob": 104.9
+        "win_prob": 42.2,
+        "place_prob": 105.4
       },
       {
         "horse_no": 4,
         "horse_name": "ショウリュウテン",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 14.5,
-        "place_prob": 36.3
+        "win_prob": 14.3,
+        "place_prob": 35.8
       },
       {
         "horse_no": 6,
         "horse_name": "アビレ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 11.5,
-        "place_prob": 28.7
+        "win_prob": 11.4,
+        "place_prob": 28.5
       },
       {
         "horse_no": 1,
@@ -6149,7 +6149,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 9.3,
-        "place_prob": 23.3
+        "place_prob": 23.1
       },
       {
         "horse_no": 5,
@@ -6157,15 +6157,15 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 8.3,
-        "place_prob": 20.8
+        "place_prob": 20.7
       },
       {
         "horse_no": 3,
         "horse_name": "スリアント",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 7.7,
-        "place_prob": 19.3
+        "win_prob": 8.0,
+        "place_prob": 19.9
       },
       {
         "horse_no": 9,
@@ -6173,7 +6173,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 3.8,
-        "place_prob": 9.5
+        "place_prob": 9.4
       },
       {
         "horse_no": 2,
@@ -6318,7 +6318,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 26.9,
-        "place_prob": 67.2
+        "place_prob": 67.4
       },
       {
         "horse_no": 2,
@@ -6326,7 +6326,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 20.2,
-        "place_prob": 50.5
+        "place_prob": 50.6
       },
       {
         "horse_no": 3,
@@ -6334,15 +6334,15 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 18.9,
-        "place_prob": 47.2
+        "place_prob": 47.3
       },
       {
         "horse_no": 5,
         "horse_name": "ロードアルフィーネ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 14.7,
-        "place_prob": 36.8
+        "win_prob": 14.6,
+        "place_prob": 36.6
       },
       {
         "horse_no": 9,
@@ -6350,15 +6350,15 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 8.3,
-        "place_prob": 20.6
+        "place_prob": 20.7
       },
       {
         "horse_no": 6,
         "horse_name": "パンディーロ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 6.6,
-        "place_prob": 16.4
+        "win_prob": 6.5,
+        "place_prob": 16.2
       },
       {
         "horse_no": 4,
@@ -6408,14 +6408,14 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 12.3,
-        "place_prob": 30.6
+        "place_prob": 30.7
       },
       {
         "horse_no": 6,
         "horse_name": "パンディーロ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 12.1,
+        "win_prob": 12.2,
         "place_prob": 30.4
       },
       {
@@ -6424,7 +6424,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 11.9,
-        "place_prob": 29.8
+        "place_prob": 29.9
       },
       {
         "horse_no": 4,
@@ -6432,7 +6432,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 11.9,
-        "place_prob": 29.8
+        "place_prob": 29.9
       },
       {
         "horse_no": 2,
@@ -6449,16 +6449,16 @@
         "horse_name": "メイショウミザオ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 31.5,
-        "place_prob": 78.8
+        "win_prob": 31.6,
+        "place_prob": 79.0
       },
       {
         "horse_no": 2,
         "horse_name": "アイルビーゼア",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 20.6,
-        "place_prob": 51.6
+        "win_prob": 20.7,
+        "place_prob": 51.7
       },
       {
         "horse_no": 3,
@@ -6473,8 +6473,8 @@
         "horse_name": "ロードアルフィーネ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 12.3,
-        "place_prob": 30.8
+        "win_prob": 12.1,
+        "place_prob": 30.3
       },
       {
         "horse_no": 9,
@@ -6515,32 +6515,32 @@
         "horse_name": "メイショウミザオ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 26.9,
-        "place_prob": 67.3
+        "win_prob": 26.8,
+        "place_prob": 67.0
       },
       {
         "horse_no": 3,
         "horse_name": "アルピナセブン",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 20.5,
-        "place_prob": 51.2
+        "win_prob": 20.6,
+        "place_prob": 51.4
       },
       {
         "horse_no": 2,
         "horse_name": "アイルビーゼア",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 19.6,
-        "place_prob": 49.1
+        "win_prob": 19.7,
+        "place_prob": 49.3
       },
       {
         "horse_no": 5,
         "horse_name": "ロードアルフィーネ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 13.2,
-        "place_prob": 33.1
+        "win_prob": 13.1,
+        "place_prob": 32.8
       },
       {
         "horse_no": 9,
@@ -6548,15 +6548,15 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 7.8,
-        "place_prob": 19.4
+        "place_prob": 19.5
       },
       {
         "horse_no": 6,
         "horse_name": "パンディーロ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 7.4,
-        "place_prob": 18.5
+        "win_prob": 7.5,
+        "place_prob": 18.7
       },
       {
         "horse_no": 1,
@@ -6571,8 +6571,8 @@
         "horse_name": "ラブマニック",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 1.8,
-        "place_prob": 4.5
+        "win_prob": 1.7,
+        "place_prob": 4.4
       }
     ],
     "predictions_v2a": [
@@ -6589,8 +6589,8 @@
         "horse_name": "ロードアルフィーネ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 12.8,
-        "place_prob": 32.1
+        "win_prob": 12.7,
+        "place_prob": 31.8
       },
       {
         "horse_no": 1,
@@ -6598,7 +6598,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 12.5,
-        "place_prob": 31.2
+        "place_prob": 31.3
       },
       {
         "horse_no": 4,
@@ -6614,7 +6614,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 12.4,
-        "place_prob": 30.9
+        "place_prob": 31.0
       },
       {
         "horse_no": 6,
@@ -6630,7 +6630,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 12.3,
-        "place_prob": 30.7
+        "place_prob": 30.8
       },
       {
         "horse_no": 7,
@@ -6638,7 +6638,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 12.3,
-        "place_prob": 30.7
+        "place_prob": 30.8
       }
     ],
     "odds_uren": {},
@@ -6775,7 +6775,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 14.4,
-        "place_prob": 35.9
+        "place_prob": 36.0
       },
       {
         "horse_no": 6,
@@ -6791,7 +6791,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 13.0,
-        "place_prob": 32.4
+        "place_prob": 32.5
       },
       {
         "horse_no": 2,
@@ -6799,15 +6799,15 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 12.4,
-        "place_prob": 31.1
+        "place_prob": 31.0
       },
       {
-        "horse_no": 3,
-        "horse_name": "ヒナノツルツル",
+        "horse_no": 1,
+        "horse_name": "アレグロヴィーヴォ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 11.9,
-        "place_prob": 29.7
+        "win_prob": 12.1,
+        "place_prob": 30.4
       },
       {
         "horse_no": 8,
@@ -6818,12 +6818,12 @@
         "place_prob": 29.7
       },
       {
-        "horse_no": 1,
-        "horse_name": "アレグロヴィーヴォ",
+        "horse_no": 3,
+        "horse_name": "ヒナノツルツル",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 11.9,
-        "place_prob": 29.7
+        "win_prob": 11.6,
+        "place_prob": 29.0
       },
       {
         "horse_no": 5,
@@ -6840,24 +6840,24 @@
         "horse_name": "フークアーデル",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 34.0,
-        "place_prob": 84.9
+        "win_prob": 34.1,
+        "place_prob": 85.2
       },
       {
         "horse_no": 4,
         "horse_name": "マルケイフォルテ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 26.6,
-        "place_prob": 66.6
+        "win_prob": 26.7,
+        "place_prob": 66.8
       },
       {
         "horse_no": 1,
         "horse_name": "アレグロヴィーヴォ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 10.0,
-        "place_prob": 25.0
+        "win_prob": 9.8,
+        "place_prob": 24.6
       },
       {
         "horse_no": 5,
@@ -6873,7 +6873,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 7.6,
-        "place_prob": 19.0
+        "place_prob": 19.1
       },
       {
         "horse_no": 8,
@@ -6888,16 +6888,16 @@
         "horse_name": "アイディンエース",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 3.6,
-        "place_prob": 9.0
+        "win_prob": 3.4,
+        "place_prob": 8.6
       },
       {
         "horse_no": 3,
         "horse_name": "ヒナノツルツル",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 1.8,
-        "place_prob": 4.6
+        "win_prob": 1.9,
+        "place_prob": 4.7
       }
     ],
     "predictions_v2b": [
@@ -6906,32 +6906,32 @@
         "horse_name": "マルケイフォルテ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 30.8,
-        "place_prob": 77.1
+        "win_prob": 30.9,
+        "place_prob": 77.4
       },
       {
         "horse_no": 10,
         "horse_name": "フークアーデル",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 23.4,
-        "place_prob": 58.4
+        "win_prob": 23.3,
+        "place_prob": 58.1
       },
       {
         "horse_no": 5,
         "horse_name": "バエル",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 12.3,
-        "place_prob": 30.7
+        "win_prob": 12.6,
+        "place_prob": 31.4
       },
       {
         "horse_no": 8,
         "horse_name": "ネコニコタツ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 11.8,
-        "place_prob": 29.4
+        "win_prob": 11.6,
+        "place_prob": 29.0
       },
       {
         "horse_no": 6,
@@ -6939,7 +6939,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 9.6,
-        "place_prob": 24.1
+        "place_prob": 24.0
       },
       {
         "horse_no": 1,
@@ -6947,7 +6947,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 6.9,
-        "place_prob": 17.3
+        "place_prob": 17.2
       },
       {
         "horse_no": 2,
@@ -6955,7 +6955,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 3.9,
-        "place_prob": 9.6
+        "place_prob": 9.7
       },
       {
         "horse_no": 3,
@@ -6963,7 +6963,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 1.3,
-        "place_prob": 3.4
+        "place_prob": 3.3
       }
     ],
     "predictions_v2a": [
@@ -6980,8 +6980,8 @@
         "horse_name": "アイディンエース",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 12.8,
-        "place_prob": 32.0
+        "win_prob": 12.7,
+        "place_prob": 31.9
       },
       {
         "horse_no": 4,
@@ -7173,8 +7173,8 @@
         "horse_name": "カイトリヒト",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 13.3,
-        "place_prob": 33.3
+        "win_prob": 13.2,
+        "place_prob": 33.1
       },
       {
         "horse_no": 5,
@@ -7231,24 +7231,16 @@
         "horse_name": "マルジェラ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 20.0,
-        "place_prob": 50.0
+        "win_prob": 20.1,
+        "place_prob": 50.2
       },
       {
         "horse_no": 8,
         "horse_name": "ビームービー",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 17.8,
-        "place_prob": 44.4
-      },
-      {
-        "horse_no": 4,
-        "horse_name": "カイトリヒト",
-        "odds": 0.0,
-        "popularity": 999,
-        "win_prob": 16.7,
-        "place_prob": 41.7
+        "win_prob": 17.9,
+        "place_prob": 44.6
       },
       {
         "horse_no": 1,
@@ -7256,15 +7248,23 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 16.7,
-        "place_prob": 41.7
+        "place_prob": 41.9
+      },
+      {
+        "horse_no": 4,
+        "horse_name": "カイトリヒト",
+        "odds": 0.0,
+        "popularity": 999,
+        "win_prob": 16.3,
+        "place_prob": 40.8
       },
       {
         "horse_no": 10,
         "horse_name": "アスノヒロイン",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 12.6,
-        "place_prob": 31.5
+        "win_prob": 12.7,
+        "place_prob": 31.6
       },
       {
         "horse_no": 5,
@@ -7272,14 +7272,14 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 9.5,
-        "place_prob": 23.6
+        "place_prob": 23.8
       },
       {
         "horse_no": 6,
         "horse_name": "シャノワール",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 3.4,
+        "win_prob": 3.5,
         "place_prob": 8.6
       },
       {
@@ -7297,16 +7297,16 @@
         "horse_name": "マルジェラ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 21.1,
-        "place_prob": 52.7
+        "win_prob": 21.2,
+        "place_prob": 53.0
       },
       {
         "horse_no": 1,
         "horse_name": "タカラクロロック",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 17.4,
-        "place_prob": 43.5
+        "win_prob": 17.3,
+        "place_prob": 43.2
       },
       {
         "horse_no": 8,
@@ -7321,8 +7321,8 @@
         "horse_name": "カイトリヒト",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 12.7,
-        "place_prob": 31.8
+        "win_prob": 12.6,
+        "place_prob": 31.5
       },
       {
         "horse_no": 5,
@@ -7330,7 +7330,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 12.5,
-        "place_prob": 31.2
+        "place_prob": 31.3
       },
       {
         "horse_no": 10,
@@ -7338,7 +7338,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 10.9,
-        "place_prob": 27.2
+        "place_prob": 27.3
       },
       {
         "horse_no": 2,
@@ -7346,15 +7346,15 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 6.2,
-        "place_prob": 15.6
+        "place_prob": 15.5
       },
       {
         "horse_no": 6,
         "horse_name": "シャノワール",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 3.6,
-        "place_prob": 9.0
+        "win_prob": 3.7,
+        "place_prob": 9.2
       }
     ],
     "predictions_v2a": [
@@ -7363,8 +7363,8 @@
         "horse_name": "カイトリヒト",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 12.9,
-        "place_prob": 32.2
+        "win_prob": 12.8,
+        "place_prob": 32.1
       },
       {
         "horse_no": 5,
@@ -7499,15 +7499,15 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 16.7,
-        "place_prob": 41.6
+        "place_prob": 41.7
       },
       {
         "horse_no": 4,
         "horse_name": "プレイフルネス",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 14.0,
-        "place_prob": 34.9
+        "win_prob": 13.9,
+        "place_prob": 34.7
       },
       {
         "horse_no": 3,
@@ -7515,7 +7515,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 13.3,
-        "place_prob": 33.1
+        "place_prob": 33.2
       },
       {
         "horse_no": 2,
@@ -7523,7 +7523,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 11.5,
-        "place_prob": 28.6
+        "place_prob": 28.7
       },
       {
         "horse_no": 9,
@@ -7531,7 +7531,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 8.7,
-        "place_prob": 21.6
+        "place_prob": 21.7
       },
       {
         "horse_no": 6,
@@ -7539,7 +7539,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 8.0,
-        "place_prob": 19.9
+        "place_prob": 20.0
       },
       {
         "horse_no": 7,
@@ -7622,16 +7622,16 @@
         "horse_name": "モーモーブラック",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 23.3,
-        "place_prob": 58.3
+        "win_prob": 23.7,
+        "place_prob": 59.3
       },
       {
         "horse_no": 5,
         "horse_name": "イテマエダセン",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 15.6,
-        "place_prob": 39.0
+        "win_prob": 15.5,
+        "place_prob": 38.8
       },
       {
         "horse_no": 4,
@@ -7639,7 +7639,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 14.8,
-        "place_prob": 37.1
+        "place_prob": 36.9
       },
       {
         "horse_no": 3,
@@ -7647,31 +7647,31 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 14.0,
-        "place_prob": 35.1
+        "place_prob": 34.9
       },
       {
         "horse_no": 2,
         "horse_name": "マダムファンタジア",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 11.4,
-        "place_prob": 28.5
+        "win_prob": 11.3,
+        "place_prob": 28.4
       },
       {
         "horse_no": 9,
         "horse_name": "ダグザ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 8.1,
-        "place_prob": 20.2
+        "win_prob": 8.0,
+        "place_prob": 20.1
       },
       {
         "horse_no": 6,
         "horse_name": "プリモジョーカー",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 7.1,
-        "place_prob": 17.7
+        "win_prob": 7.0,
+        "place_prob": 17.6
       },
       {
         "horse_no": 7,
@@ -7679,7 +7679,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 5.6,
-        "place_prob": 14.1
+        "place_prob": 14.0
       }
     ],
     "predictions_v2b": [
@@ -7688,16 +7688,24 @@
         "horse_name": "モーモーブラック",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 19.4,
-        "place_prob": 48.4
+        "win_prob": 19.1,
+        "place_prob": 47.8
       },
       {
         "horse_no": 4,
         "horse_name": "プレイフルネス",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 14.8,
-        "place_prob": 37.0
+        "win_prob": 14.5,
+        "place_prob": 36.3
+      },
+      {
+        "horse_no": 3,
+        "horse_name": "ミキノイチゴ",
+        "odds": 0.0,
+        "popularity": 999,
+        "win_prob": 14.3,
+        "place_prob": 35.8
       },
       {
         "horse_no": 9,
@@ -7705,31 +7713,23 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 14.2,
-        "place_prob": 35.4
-      },
-      {
-        "horse_no": 3,
-        "horse_name": "ミキノイチゴ",
-        "odds": 0.0,
-        "popularity": 999,
-        "win_prob": 14.1,
-        "place_prob": 35.3
+        "place_prob": 35.6
       },
       {
         "horse_no": 7,
         "horse_name": "ハイプボーイ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 13.0,
-        "place_prob": 32.6
+        "win_prob": 13.3,
+        "place_prob": 33.1
       },
       {
         "horse_no": 5,
         "horse_name": "イテマエダセン",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 10.8,
-        "place_prob": 27.1
+        "win_prob": 10.9,
+        "place_prob": 27.2
       },
       {
         "horse_no": 2,
@@ -7745,7 +7745,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 6.6,
-        "place_prob": 16.4
+        "place_prob": 16.5
       }
     ],
     "predictions_v2a": [
@@ -7771,7 +7771,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 12.5,
-        "place_prob": 31.4
+        "place_prob": 31.2
       },
       {
         "horse_no": 3,
@@ -7882,7 +7882,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 30.6,
-        "place_prob": 76.5
+        "place_prob": 76.4
       },
       {
         "horse_no": 9,
@@ -7937,7 +7937,7 @@
         "horse_name": "コスモエスメラルダ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 3.0,
+        "win_prob": 3.1,
         "place_prob": 7.6
       }
     ],
@@ -8014,23 +8014,23 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 29.8,
-        "place_prob": 74.6
+        "place_prob": 74.5
       },
       {
         "horse_no": 9,
         "horse_name": "ハクシンマルペンサ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 21.1,
-        "place_prob": 52.7
+        "win_prob": 21.3,
+        "place_prob": 53.2
       },
       {
         "horse_no": 1,
         "horse_name": "メイショウミチロク",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 15.6,
-        "place_prob": 39.0
+        "win_prob": 15.5,
+        "place_prob": 38.8
       },
       {
         "horse_no": 5,
@@ -8054,7 +8054,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 4.5,
-        "place_prob": 11.2
+        "place_prob": 11.1
       },
       {
         "horse_no": 2,
@@ -8079,24 +8079,24 @@
         "horse_name": "ハクシンマルペンサ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 34.6,
-        "place_prob": 86.5
+        "win_prob": 34.8,
+        "place_prob": 86.9
       },
       {
         "horse_no": 4,
         "horse_name": "ダイタヴァルキリー",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 16.7,
-        "place_prob": 41.7
+        "win_prob": 16.2,
+        "place_prob": 40.6
       },
       {
         "horse_no": 1,
         "horse_name": "メイショウミチロク",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 15.2,
-        "place_prob": 38.0
+        "win_prob": 15.3,
+        "place_prob": 38.2
       },
       {
         "horse_no": 6,
@@ -8104,7 +8104,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 9.3,
-        "place_prob": 23.2
+        "place_prob": 23.3
       },
       {
         "horse_no": 5,
@@ -8112,7 +8112,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 8.6,
-        "place_prob": 21.5
+        "place_prob": 21.4
       },
       {
         "horse_no": 2,
@@ -8120,23 +8120,23 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 7.1,
-        "place_prob": 17.7
+        "place_prob": 17.8
       },
       {
         "horse_no": 7,
         "horse_name": "ハナカホノカ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 6.1,
-        "place_prob": 15.1
+        "win_prob": 6.2,
+        "place_prob": 15.4
       },
       {
         "horse_no": 3,
         "horse_name": "コスモピエドラ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 2.5,
-        "place_prob": 6.2
+        "win_prob": 2.6,
+        "place_prob": 6.4
       }
     ],
     "predictions_v2a": [
@@ -8404,8 +8404,8 @@
         "horse_name": "セレスチャルホープ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 63.8,
-        "place_prob": 159.4
+        "win_prob": 63.9,
+        "place_prob": 159.7
       },
       {
         "horse_no": 2,
@@ -8413,15 +8413,15 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 14.6,
-        "place_prob": 43.7
+        "place_prob": 43.8
       },
       {
         "horse_no": 3,
         "horse_name": "ビーナスライズ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 11.1,
-        "place_prob": 33.8
+        "win_prob": 11.0,
+        "place_prob": 33.4
       },
       {
         "horse_no": 8,
@@ -8429,7 +8429,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 5.5,
-        "place_prob": 17.0
+        "place_prob": 17.1
       },
       {
         "horse_no": 5,
@@ -8461,7 +8461,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 0.9,
-        "place_prob": 2.7
+        "place_prob": 2.8
       }
     ],
     "predictions_v2b": [
@@ -8470,16 +8470,16 @@
         "horse_name": "セレスチャルホープ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 67.5,
-        "place_prob": 168.7
+        "win_prob": 67.6,
+        "place_prob": 169.0
       },
       {
         "horse_no": 3,
         "horse_name": "ビーナスライズ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 10.2,
-        "place_prob": 33.7
+        "win_prob": 10.1,
+        "place_prob": 33.6
       },
       {
         "horse_no": 8,
@@ -8487,15 +8487,15 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 9.5,
-        "place_prob": 31.5
+        "place_prob": 31.7
       },
       {
         "horse_no": 2,
         "horse_name": "フィアレスハート",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 7.2,
-        "place_prob": 24.1
+        "win_prob": 7.1,
+        "place_prob": 23.9
       },
       {
         "horse_no": 5,
@@ -8503,7 +8503,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 2.5,
-        "place_prob": 8.5
+        "place_prob": 8.6
       },
       {
         "horse_no": 1,
@@ -8511,7 +8511,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 1.2,
-        "place_prob": 4.1
+        "place_prob": 4.2
       },
       {
         "horse_no": 6,
@@ -8526,8 +8526,8 @@
         "horse_name": "ロッキータイタン",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 1.0,
-        "place_prob": 3.3
+        "win_prob": 0.9,
+        "place_prob": 3.2
       }
     ],
     "predictions_v2a": [
@@ -8663,32 +8663,32 @@
         "horse_name": "ストレート",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 19.8,
-        "place_prob": 49.4
+        "win_prob": 19.7,
+        "place_prob": 49.3
       },
       {
         "horse_no": 4,
         "horse_name": "マサノビジョン",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 19.1,
-        "place_prob": 47.6
+        "win_prob": 19.2,
+        "place_prob": 48.1
       },
       {
         "horse_no": 2,
         "horse_name": "ビッグリュウオー",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 17.7,
-        "place_prob": 44.2
+        "win_prob": 17.6,
+        "place_prob": 44.1
       },
       {
         "horse_no": 10,
         "horse_name": "トントンプー",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 11.9,
-        "place_prob": 29.7
+        "win_prob": 11.8,
+        "place_prob": 29.6
       },
       {
         "horse_no": 5,
@@ -8696,14 +8696,14 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 11.2,
-        "place_prob": 28.0
+        "place_prob": 27.9
       },
       {
         "horse_no": 1,
         "horse_name": "オブジェダート",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 9.0,
+        "win_prob": 8.9,
         "place_prob": 22.4
       },
       {
@@ -8711,7 +8711,7 @@
         "horse_name": "エネルゲイア",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 7.1,
+        "win_prob": 7.0,
         "place_prob": 17.6
       },
       {
@@ -8720,7 +8720,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 4.4,
-        "place_prob": 11.1
+        "place_prob": 11.0
       }
     ],
     "predictions_a": [
@@ -8746,7 +8746,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 12.5,
-        "place_prob": 31.3
+        "place_prob": 31.2
       },
       {
         "horse_no": 8,
@@ -8770,7 +8770,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 12.3,
-        "place_prob": 30.7
+        "place_prob": 30.8
       },
       {
         "horse_no": 5,
@@ -8795,8 +8795,8 @@
         "horse_name": "ストレート",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 22.4,
-        "place_prob": 56.1
+        "win_prob": 22.5,
+        "place_prob": 56.2
       },
       {
         "horse_no": 2,
@@ -8804,7 +8804,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 19.4,
-        "place_prob": 48.4
+        "place_prob": 48.5
       },
       {
         "horse_no": 4,
@@ -8812,7 +8812,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 17.2,
-        "place_prob": 43.0
+        "place_prob": 43.1
       },
       {
         "horse_no": 5,
@@ -8820,15 +8820,15 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 11.7,
-        "place_prob": 29.3
+        "place_prob": 29.4
       },
       {
         "horse_no": 10,
         "horse_name": "トントンプー",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 10.5,
-        "place_prob": 26.3
+        "win_prob": 10.6,
+        "place_prob": 26.4
       },
       {
         "horse_no": 1,
@@ -8843,8 +8843,8 @@
         "horse_name": "エネルゲイア",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 6.2,
-        "place_prob": 15.4
+        "win_prob": 6.0,
+        "place_prob": 15.1
       },
       {
         "horse_no": 8,
@@ -8861,8 +8861,8 @@
         "horse_name": "ストレート",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 25.7,
-        "place_prob": 64.2
+        "win_prob": 25.6,
+        "place_prob": 64.1
       },
       {
         "horse_no": 4,
@@ -8870,15 +8870,15 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 18.3,
-        "place_prob": 45.9
+        "place_prob": 45.8
       },
       {
         "horse_no": 10,
         "horse_name": "トントンプー",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 12.0,
-        "place_prob": 29.9
+        "win_prob": 12.1,
+        "place_prob": 30.3
       },
       {
         "horse_no": 2,
@@ -8894,15 +8894,15 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 10.4,
-        "place_prob": 26.1
+        "place_prob": 26.0
       },
       {
         "horse_no": 3,
         "horse_name": "エネルゲイア",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 9.2,
-        "place_prob": 23.1
+        "win_prob": 9.3,
+        "place_prob": 23.2
       },
       {
         "horse_no": 1,
@@ -8917,8 +8917,8 @@
         "horse_name": "ワンダーブギ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 4.8,
-        "place_prob": 12.0
+        "win_prob": 4.7,
+        "place_prob": 11.9
       }
     ],
     "predictions_v2a": [
@@ -8936,7 +8936,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 12.7,
-        "place_prob": 31.8
+        "place_prob": 31.7
       },
       {
         "horse_no": 10,
@@ -9054,24 +9054,24 @@
         "horse_name": "ファイナルキング",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 27.1,
-        "place_prob": 67.7
+        "win_prob": 26.8,
+        "place_prob": 67.1
       },
       {
         "horse_no": 2,
         "horse_name": "ケープライト",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 20.1,
-        "place_prob": 50.2
+        "win_prob": 20.0,
+        "place_prob": 50.1
       },
       {
         "horse_no": 5,
         "horse_name": "ビップアクア",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 18.1,
-        "place_prob": 45.4
+        "win_prob": 18.4,
+        "place_prob": 45.9
       },
       {
         "horse_no": 4,
@@ -9079,15 +9079,15 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 13.1,
-        "place_prob": 32.9
+        "place_prob": 32.8
       },
       {
         "horse_no": 6,
         "horse_name": "メイショウイジゲン",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 10.9,
-        "place_prob": 27.3
+        "win_prob": 11.0,
+        "place_prob": 27.5
       },
       {
         "horse_no": 8,
@@ -9186,16 +9186,16 @@
         "horse_name": "ファイナルキング",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 26.4,
-        "place_prob": 66.0
+        "win_prob": 26.2,
+        "place_prob": 65.5
       },
       {
         "horse_no": 2,
         "horse_name": "ケープライト",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 24.1,
-        "place_prob": 60.3
+        "win_prob": 24.2,
+        "place_prob": 60.5
       },
       {
         "horse_no": 5,
@@ -9203,7 +9203,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 16.7,
-        "place_prob": 41.7
+        "place_prob": 41.9
       },
       {
         "horse_no": 4,
@@ -9211,7 +9211,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 12.4,
-        "place_prob": 30.9
+        "place_prob": 31.0
       },
       {
         "horse_no": 6,
@@ -9219,15 +9219,15 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 10.5,
-        "place_prob": 26.2
+        "place_prob": 26.3
       },
       {
         "horse_no": 8,
         "horse_name": "クイーンカード",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 6.7,
-        "place_prob": 16.7
+        "win_prob": 6.6,
+        "place_prob": 16.4
       },
       {
         "horse_no": 1,
@@ -9252,8 +9252,8 @@
         "horse_name": "ファイナルキング",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 36.8,
-        "place_prob": 92.1
+        "win_prob": 36.7,
+        "place_prob": 91.6
       },
       {
         "horse_no": 5,
@@ -9268,8 +9268,8 @@
         "horse_name": "ケープライト",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 16.3,
-        "place_prob": 40.8
+        "win_prob": 16.5,
+        "place_prob": 41.2
       },
       {
         "horse_no": 6,
@@ -9277,15 +9277,15 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 11.2,
-        "place_prob": 27.9
+        "place_prob": 28.0
       },
       {
         "horse_no": 4,
         "horse_name": "ダミエ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 7.7,
-        "place_prob": 19.3
+        "win_prob": 7.8,
+        "place_prob": 19.5
       },
       {
         "horse_no": 8,
@@ -9293,7 +9293,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 4.8,
-        "place_prob": 12.0
+        "place_prob": 11.9
       },
       {
         "horse_no": 1,
@@ -9301,7 +9301,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 2.9,
-        "place_prob": 7.2
+        "place_prob": 7.3
       },
       {
         "horse_no": 3,
@@ -9445,8 +9445,8 @@
         "horse_name": "ユナパール",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 44.0,
-        "place_prob": 110.0
+        "win_prob": 44.1,
+        "place_prob": 110.2
       },
       {
         "horse_no": 4,
@@ -9454,15 +9454,15 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 18.4,
-        "place_prob": 46.0
+        "place_prob": 45.9
       },
       {
         "horse_no": 7,
         "horse_name": "ピエナパプリカ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 12.7,
-        "place_prob": 31.7
+        "win_prob": 12.6,
+        "place_prob": 31.5
       },
       {
         "horse_no": 2,
@@ -9486,15 +9486,15 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 6.1,
-        "place_prob": 15.3
+        "place_prob": 15.4
       },
       {
         "horse_no": 9,
         "horse_name": "メッチャハットリ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 1.4,
-        "place_prob": 3.5
+        "win_prob": 1.5,
+        "place_prob": 3.6
       },
       {
         "horse_no": 1,
@@ -9577,16 +9577,16 @@
         "horse_name": "ユナパール",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 46.0,
-        "place_prob": 115.1
+        "win_prob": 45.7,
+        "place_prob": 114.2
       },
       {
         "horse_no": 4,
         "horse_name": "ランドシュール",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 17.6,
-        "place_prob": 44.0
+        "win_prob": 17.7,
+        "place_prob": 44.2
       },
       {
         "horse_no": 7,
@@ -9594,22 +9594,22 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 12.4,
-        "place_prob": 31.0
+        "place_prob": 31.1
       },
       {
         "horse_no": 2,
         "horse_name": "チョボナイノ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 8.1,
-        "place_prob": 20.3
+        "win_prob": 8.2,
+        "place_prob": 20.4
       },
       {
         "horse_no": 6,
         "horse_name": "ベストタンゴ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 7.3,
+        "win_prob": 7.4,
         "place_prob": 18.4
       },
       {
@@ -9617,16 +9617,16 @@
         "horse_name": "ジューンサレンダー",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 5.8,
-        "place_prob": 14.4
+        "win_prob": 5.9,
+        "place_prob": 14.8
       },
       {
         "horse_no": 9,
         "horse_name": "メッチャハットリ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 1.4,
-        "place_prob": 3.6
+        "win_prob": 1.5,
+        "place_prob": 3.7
       },
       {
         "horse_no": 1,
@@ -9643,48 +9643,48 @@
         "horse_name": "ユナパール",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 43.4,
-        "place_prob": 108.5
+        "win_prob": 43.3,
+        "place_prob": 108.4
       },
       {
         "horse_no": 4,
         "horse_name": "ランドシュール",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 19.6,
-        "place_prob": 48.9
+        "win_prob": 19.5,
+        "place_prob": 48.7
       },
       {
         "horse_no": 7,
         "horse_name": "ピエナパプリカ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 10.7,
-        "place_prob": 26.8
+        "win_prob": 10.6,
+        "place_prob": 26.5
       },
       {
         "horse_no": 3,
         "horse_name": "ジューンサレンダー",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 7.6,
-        "place_prob": 19.0
+        "win_prob": 7.8,
+        "place_prob": 19.5
       },
       {
         "horse_no": 6,
         "horse_name": "ベストタンゴ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 7.2,
-        "place_prob": 18.0
+        "win_prob": 7.3,
+        "place_prob": 18.4
       },
       {
         "horse_no": 2,
         "horse_name": "チョボナイノ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 6.8,
-        "place_prob": 17.1
+        "win_prob": 6.7,
+        "place_prob": 16.9
       },
       {
         "horse_no": 9,
@@ -9692,7 +9692,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 2.4,
-        "place_prob": 5.9
+        "place_prob": 6.0
       },
       {
         "horse_no": 1,
@@ -9700,7 +9700,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 2.3,
-        "place_prob": 5.7
+        "place_prob": 5.8
       }
     ],
     "predictions_v2a": [
@@ -9836,23 +9836,23 @@
         "horse_name": "カフジウヴァ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 50.9,
-        "place_prob": 127.1
+        "win_prob": 50.7,
+        "place_prob": 126.7
       },
       {
         "horse_no": 1,
         "horse_name": "リアンジュ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 17.5,
-        "place_prob": 43.8
+        "win_prob": 17.8,
+        "place_prob": 44.5
       },
       {
         "horse_no": 2,
         "horse_name": "パープライト",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 6.8,
+        "win_prob": 6.9,
         "place_prob": 17.2
       },
       {
@@ -9860,16 +9860,16 @@
         "horse_name": "アギト",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 6.0,
-        "place_prob": 15.2
+        "win_prob": 6.1,
+        "place_prob": 15.3
       },
       {
         "horse_no": 4,
         "horse_name": "イーベンホルツ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 5.5,
-        "place_prob": 14.0
+        "win_prob": 5.6,
+        "place_prob": 14.1
       },
       {
         "horse_no": 10,
@@ -9885,15 +9885,15 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 4.9,
-        "place_prob": 12.5
+        "place_prob": 12.3
       },
       {
         "horse_no": 3,
         "horse_name": "スマートアリオン",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 2.8,
-        "place_prob": 7.3
+        "win_prob": 2.7,
+        "place_prob": 6.9
       }
     ],
     "predictions_a": [
@@ -9911,7 +9911,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 14.0,
-        "place_prob": 35.0
+        "place_prob": 35.1
       },
       {
         "horse_no": 1,
@@ -9919,7 +9919,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 12.7,
-        "place_prob": 31.7
+        "place_prob": 31.8
       },
       {
         "horse_no": 2,
@@ -9927,7 +9927,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 12.6,
-        "place_prob": 31.4
+        "place_prob": 31.5
       },
       {
         "horse_no": 8,
@@ -9935,7 +9935,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 12.4,
-        "place_prob": 30.9
+        "place_prob": 31.0
       },
       {
         "horse_no": 4,
@@ -9951,15 +9951,15 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 11.1,
-        "place_prob": 27.7
+        "place_prob": 27.8
       },
       {
         "horse_no": 3,
         "horse_name": "スマートアリオン",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 10.2,
-        "place_prob": 25.6
+        "win_prob": 10.1,
+        "place_prob": 25.4
       }
     ],
     "predictions_s5": [
@@ -9968,16 +9968,24 @@
         "horse_name": "カフジウヴァ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 46.9,
-        "place_prob": 117.3
+        "win_prob": 46.6,
+        "place_prob": 116.5
       },
       {
         "horse_no": 1,
         "horse_name": "リアンジュ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 19.2,
-        "place_prob": 48.0
+        "win_prob": 19.3,
+        "place_prob": 48.3
+      },
+      {
+        "horse_no": 2,
+        "horse_name": "パープライト",
+        "odds": 0.0,
+        "popularity": 999,
+        "win_prob": 6.8,
+        "place_prob": 17.1
       },
       {
         "horse_no": 4,
@@ -9985,15 +9993,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 6.8,
-        "place_prob": 16.9
-      },
-      {
-        "horse_no": 2,
-        "horse_name": "パープライト",
-        "odds": 0.0,
-        "popularity": 999,
-        "win_prob": 6.7,
-        "place_prob": 16.8
+        "place_prob": 17.1
       },
       {
         "horse_no": 10,
@@ -10001,7 +10001,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 6.7,
-        "place_prob": 16.7
+        "place_prob": 16.8
       },
       {
         "horse_no": 5,
@@ -10009,7 +10009,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 5.8,
-        "place_prob": 14.5
+        "place_prob": 14.6
       },
       {
         "horse_no": 8,
@@ -10024,8 +10024,8 @@
         "horse_name": "スマートアリオン",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 2.6,
-        "place_prob": 6.5
+        "win_prob": 2.5,
+        "place_prob": 6.3
       }
     ],
     "predictions_v2b": [
@@ -10034,44 +10034,44 @@
         "horse_name": "カフジウヴァ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 39.3,
-        "place_prob": 98.1
+        "win_prob": 39.2,
+        "place_prob": 98.0
       },
       {
         "horse_no": 1,
         "horse_name": "リアンジュ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 16.2,
-        "place_prob": 40.5
+        "win_prob": 16.3,
+        "place_prob": 40.7
       },
       {
         "horse_no": 8,
         "horse_name": "ラシェンテ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 9.5,
-        "place_prob": 23.9
+        "win_prob": 9.6,
+        "place_prob": 24.1
       },
       {
         "horse_no": 5,
         "horse_name": "アギト",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 8.7,
-        "place_prob": 21.8
-      },
-      {
-        "horse_no": 2,
-        "horse_name": "パープライト",
-        "odds": 0.0,
-        "popularity": 999,
-        "win_prob": 7.6,
-        "place_prob": 19.0
+        "win_prob": 8.8,
+        "place_prob": 22.1
       },
       {
         "horse_no": 10,
         "horse_name": "マノンルージュ",
+        "odds": 0.0,
+        "popularity": 999,
+        "win_prob": 7.5,
+        "place_prob": 18.9
+      },
+      {
+        "horse_no": 2,
+        "horse_name": "パープライト",
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 7.5,
@@ -10083,15 +10083,15 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 5.8,
-        "place_prob": 14.5
+        "place_prob": 14.6
       },
       {
         "horse_no": 3,
         "horse_name": "スマートアリオン",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 5.4,
-        "place_prob": 13.5
+        "win_prob": 5.2,
+        "place_prob": 13.1
       }
     ],
     "predictions_v2a": [
@@ -10227,8 +10227,8 @@
         "horse_name": "ハジメテノチュウ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 43.3,
-        "place_prob": 108.3
+        "win_prob": 43.5,
+        "place_prob": 108.7
       },
       {
         "horse_no": 7,
@@ -10236,7 +10236,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 20.2,
-        "place_prob": 50.5
+        "place_prob": 50.6
       },
       {
         "horse_no": 1,
@@ -10244,7 +10244,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 10.0,
-        "place_prob": 25.0
+        "place_prob": 25.1
       },
       {
         "horse_no": 6,
@@ -10252,7 +10252,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 8.0,
-        "place_prob": 19.9
+        "place_prob": 20.0
       },
       {
         "horse_no": 4,
@@ -10267,8 +10267,8 @@
         "horse_name": "ローレルランウェイ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 6.8,
-        "place_prob": 17.0
+        "win_prob": 6.5,
+        "place_prob": 16.3
       },
       {
         "horse_no": 5,
@@ -10276,7 +10276,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 3.7,
-        "place_prob": 9.3
+        "place_prob": 9.4
       },
       {
         "horse_no": 3,
@@ -10360,7 +10360,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 44.2,
-        "place_prob": 110.4
+        "place_prob": 110.5
       },
       {
         "horse_no": 7,
@@ -10368,7 +10368,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 20.6,
-        "place_prob": 51.5
+        "place_prob": 51.6
       },
       {
         "horse_no": 1,
@@ -10383,8 +10383,8 @@
         "horse_name": "セブンメイクハピー",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 7.9,
-        "place_prob": 19.9
+        "win_prob": 8.0,
+        "place_prob": 20.1
       },
       {
         "horse_no": 4,
@@ -10392,15 +10392,15 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 6.8,
-        "place_prob": 17.1
+        "place_prob": 17.0
       },
       {
         "horse_no": 2,
         "horse_name": "ローレルランウェイ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 6.3,
-        "place_prob": 15.7
+        "win_prob": 6.2,
+        "place_prob": 15.4
       },
       {
         "horse_no": 5,
@@ -10425,32 +10425,32 @@
         "horse_name": "ハジメテノチュウ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 33.9,
-        "place_prob": 84.7
+        "win_prob": 33.6,
+        "place_prob": 84.1
       },
       {
         "horse_no": 7,
         "horse_name": "イサムダイヤモンド",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 21.2,
-        "place_prob": 53.1
-      },
-      {
-        "horse_no": 6,
-        "horse_name": "セブンメイクハピー",
-        "odds": 0.0,
-        "popularity": 999,
-        "win_prob": 10.5,
-        "place_prob": 26.2
+        "win_prob": 21.5,
+        "place_prob": 53.7
       },
       {
         "horse_no": 2,
         "horse_name": "ローレルランウェイ",
         "odds": 0.0,
         "popularity": 999,
+        "win_prob": 10.5,
+        "place_prob": 26.2
+      },
+      {
+        "horse_no": 6,
+        "horse_name": "セブンメイクハピー",
+        "odds": 0.0,
+        "popularity": 999,
         "win_prob": 10.4,
-        "place_prob": 26.1
+        "place_prob": 25.9
       },
       {
         "horse_no": 1,
@@ -10465,15 +10465,15 @@
         "horse_name": "ドンタカーミ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 9.1,
-        "place_prob": 22.7
+        "win_prob": 9.2,
+        "place_prob": 22.9
       },
       {
         "horse_no": 5,
         "horse_name": "ギンザターゲット",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 3.6,
+        "win_prob": 3.7,
         "place_prob": 9.1
       },
       {
@@ -10618,64 +10618,64 @@
         "horse_name": "ハクサンアンタレス",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 36.4,
-        "place_prob": 91.0
+        "win_prob": 39.7,
+        "place_prob": 99.3
       },
       {
         "horse_no": 1,
         "horse_name": "ニューレトロ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 15.8,
-        "place_prob": 39.6
+        "win_prob": 15.3,
+        "place_prob": 38.1
       },
       {
         "horse_no": 3,
         "horse_name": "エリュシデータ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 15.4,
-        "place_prob": 38.5
+        "win_prob": 14.5,
+        "place_prob": 36.2
       },
       {
         "horse_no": 5,
         "horse_name": "キーチキング",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 14.0,
-        "place_prob": 35.1
+        "win_prob": 13.2,
+        "place_prob": 33.0
       },
       {
         "horse_no": 4,
         "horse_name": "ペダンクルアーチ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 8.4,
-        "place_prob": 21.0
+        "win_prob": 8.0,
+        "place_prob": 19.9
       },
       {
         "horse_no": 2,
         "horse_name": "ミスティックパワー",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 6.0,
-        "place_prob": 15.0
+        "win_prob": 5.6,
+        "place_prob": 14.1
       },
       {
         "horse_no": 6,
         "horse_name": "モノクロームスター",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 2.9,
-        "place_prob": 7.2
+        "win_prob": 2.7,
+        "place_prob": 6.8
       },
       {
         "horse_no": 7,
         "horse_name": "ブザービート",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 1.1,
-        "place_prob": 2.6
+        "win_prob": 1.0,
+        "place_prob": 2.5
       }
     ],
     "predictions_a": [
@@ -10685,7 +10685,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 15.2,
-        "place_prob": 38.0
+        "place_prob": 37.9
       },
       {
         "horse_no": 3,
@@ -10701,7 +10701,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 12.9,
-        "place_prob": 32.1
+        "place_prob": 32.2
       },
       {
         "horse_no": 6,
@@ -10717,7 +10717,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 12.0,
-        "place_prob": 29.9
+        "place_prob": 30.0
       },
       {
         "horse_no": 1,
@@ -10725,7 +10725,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 11.9,
-        "place_prob": 29.7
+        "place_prob": 29.8
       },
       {
         "horse_no": 2,
@@ -10750,56 +10750,56 @@
         "horse_name": "ハクサンアンタレス",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 32.5,
-        "place_prob": 81.4
+        "win_prob": 35.9,
+        "place_prob": 89.7
       },
       {
         "horse_no": 1,
         "horse_name": "ニューレトロ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 20.2,
-        "place_prob": 50.5
+        "win_prob": 19.0,
+        "place_prob": 47.5
       },
       {
         "horse_no": 3,
         "horse_name": "エリュシデータ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 16.6,
-        "place_prob": 41.5
+        "win_prob": 16.0,
+        "place_prob": 39.9
       },
       {
         "horse_no": 5,
         "horse_name": "キーチキング",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 13.1,
-        "place_prob": 32.8
+        "win_prob": 12.5,
+        "place_prob": 31.3
       },
       {
         "horse_no": 4,
         "horse_name": "ペダンクルアーチ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 7.7,
-        "place_prob": 19.1
+        "win_prob": 7.2,
+        "place_prob": 18.1
       },
       {
         "horse_no": 2,
         "horse_name": "ミスティックパワー",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 6.1,
-        "place_prob": 15.2
+        "win_prob": 5.8,
+        "place_prob": 14.5
       },
       {
         "horse_no": 6,
         "horse_name": "モノクロームスター",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 2.5,
-        "place_prob": 6.3
+        "win_prob": 2.4,
+        "place_prob": 6.1
       },
       {
         "horse_no": 7,
@@ -10807,7 +10807,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 1.2,
-        "place_prob": 3.1
+        "place_prob": 3.0
       }
     ],
     "predictions_v2b": [
@@ -10816,64 +10816,64 @@
         "horse_name": "ハクサンアンタレス",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 30.7,
-        "place_prob": 76.8
+        "win_prob": 37.3,
+        "place_prob": 93.2
       },
       {
         "horse_no": 1,
         "horse_name": "ニューレトロ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 17.9,
-        "place_prob": 44.8
-      },
-      {
-        "horse_no": 4,
-        "horse_name": "ペダンクルアーチ",
-        "odds": 0.0,
-        "popularity": 999,
-        "win_prob": 15.6,
-        "place_prob": 39.0
+        "win_prob": 16.4,
+        "place_prob": 40.9
       },
       {
         "horse_no": 5,
         "horse_name": "キーチキング",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 15.0,
-        "place_prob": 37.4
+        "win_prob": 13.8,
+        "place_prob": 34.5
+      },
+      {
+        "horse_no": 4,
+        "horse_name": "ペダンクルアーチ",
+        "odds": 0.0,
+        "popularity": 999,
+        "win_prob": 13.4,
+        "place_prob": 33.6
       },
       {
         "horse_no": 3,
         "horse_name": "エリュシデータ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 11.8,
-        "place_prob": 29.5
+        "win_prob": 10.9,
+        "place_prob": 27.2
       },
       {
         "horse_no": 2,
         "horse_name": "ミスティックパワー",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 4.7,
-        "place_prob": 11.8
+        "win_prob": 4.3,
+        "place_prob": 10.9
       },
       {
         "horse_no": 6,
         "horse_name": "モノクロームスター",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 2.9,
-        "place_prob": 7.1
+        "win_prob": 2.6,
+        "place_prob": 6.4
       },
       {
         "horse_no": 7,
         "horse_name": "ブザービート",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 1.4,
-        "place_prob": 3.5
+        "win_prob": 1.3,
+        "place_prob": 3.2
       }
     ],
     "predictions_v2a": [
@@ -11009,24 +11009,24 @@
         "horse_name": "オブラマエストラ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 41.6,
-        "place_prob": 104.0
+        "win_prob": 41.4,
+        "place_prob": 103.5
       },
       {
         "horse_no": 6,
         "horse_name": "アルサトワ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 18.9,
-        "place_prob": 47.2
+        "win_prob": 19.2,
+        "place_prob": 48.0
       },
       {
         "horse_no": 1,
         "horse_name": "リュウノレッドアイ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 18.1,
-        "place_prob": 45.2
+        "win_prob": 18.0,
+        "place_prob": 44.9
       },
       {
         "horse_no": 7,
@@ -11034,7 +11034,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 9.3,
-        "place_prob": 23.3
+        "place_prob": 23.2
       },
       {
         "horse_no": 5,
@@ -11042,7 +11042,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 4.1,
-        "place_prob": 10.2
+        "place_prob": 10.3
       },
       {
         "horse_no": 2,
@@ -11100,7 +11100,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 12.7,
-        "place_prob": 31.7
+        "place_prob": 31.6
       },
       {
         "horse_no": 7,
@@ -11198,7 +11198,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 1.8,
-        "place_prob": 4.5
+        "place_prob": 4.6
       }
     ],
     "predictions_v2b": [
@@ -11207,32 +11207,32 @@
         "horse_name": "オブラマエストラ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 47.8,
-        "place_prob": 119.6
+        "win_prob": 48.2,
+        "place_prob": 120.5
       },
       {
         "horse_no": 1,
         "horse_name": "リュウノレッドアイ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 17.2,
-        "place_prob": 43.0
+        "win_prob": 17.3,
+        "place_prob": 43.2
       },
       {
         "horse_no": 6,
         "horse_name": "アルサトワ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 15.6,
-        "place_prob": 38.9
+        "win_prob": 15.3,
+        "place_prob": 38.3
       },
       {
         "horse_no": 7,
         "horse_name": "オーデンオパール",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 9.3,
-        "place_prob": 23.2
+        "win_prob": 9.2,
+        "place_prob": 23.0
       },
       {
         "horse_no": 2,
@@ -11240,7 +11240,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 4.3,
-        "place_prob": 10.8
+        "place_prob": 10.7
       },
       {
         "horse_no": 4,
@@ -11248,7 +11248,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 2.6,
-        "place_prob": 6.5
+        "place_prob": 6.4
       },
       {
         "horse_no": 5,
@@ -11400,8 +11400,8 @@
         "horse_name": "ワンカードフェロー",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 25.1,
-        "place_prob": 62.7
+        "win_prob": 24.9,
+        "place_prob": 62.4
       },
       {
         "horse_no": 2,
@@ -11409,15 +11409,23 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 24.7,
-        "place_prob": 61.7
+        "place_prob": 61.9
       },
       {
         "horse_no": 1,
         "horse_name": "ブレイクネック",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 16.3,
-        "place_prob": 40.7
+        "win_prob": 16.2,
+        "place_prob": 40.5
+      },
+      {
+        "horse_no": 7,
+        "horse_name": "ミラコロヴァーグ",
+        "odds": 0.0,
+        "popularity": 999,
+        "win_prob": 12.7,
+        "place_prob": 31.8
       },
       {
         "horse_no": 8,
@@ -11425,15 +11433,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 12.6,
-        "place_prob": 31.6
-      },
-      {
-        "horse_no": 7,
-        "horse_name": "ミラコロヴァーグ",
-        "odds": 0.0,
-        "popularity": 999,
-        "win_prob": 12.5,
-        "place_prob": 31.3
+        "place_prob": 31.5
       },
       {
         "horse_no": 5,
@@ -11441,7 +11441,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 4.9,
-        "place_prob": 12.1
+        "place_prob": 12.3
       },
       {
         "horse_no": 6,
@@ -11457,7 +11457,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 1.7,
-        "place_prob": 4.4
+        "place_prob": 4.3
       }
     ],
     "predictions_a": [
@@ -11533,15 +11533,15 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 25.8,
-        "place_prob": 64.6
+        "place_prob": 64.4
       },
       {
         "horse_no": 2,
         "horse_name": "プロスペロ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 23.3,
-        "place_prob": 58.3
+        "win_prob": 23.4,
+        "place_prob": 58.4
       },
       {
         "horse_no": 1,
@@ -11549,7 +11549,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 16.9,
-        "place_prob": 42.3
+        "place_prob": 42.2
       },
       {
         "horse_no": 8,
@@ -11557,7 +11557,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 12.8,
-        "place_prob": 32.1
+        "place_prob": 32.0
       },
       {
         "horse_no": 7,
@@ -11565,15 +11565,15 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 12.7,
-        "place_prob": 31.6
+        "place_prob": 31.8
       },
       {
         "horse_no": 5,
         "horse_name": "コンチマカロン",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 4.1,
-        "place_prob": 10.3
+        "win_prob": 4.2,
+        "place_prob": 10.4
       },
       {
         "horse_no": 6,
@@ -11581,7 +11581,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 2.4,
-        "place_prob": 6.0
+        "place_prob": 6.1
       },
       {
         "horse_no": 3,
@@ -11589,7 +11589,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 1.9,
-        "place_prob": 4.7
+        "place_prob": 4.6
       }
     ],
     "predictions_v2b": [
@@ -11598,32 +11598,32 @@
         "horse_name": "プロスペロ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 32.0,
-        "place_prob": 79.9
+        "win_prob": 32.1,
+        "place_prob": 80.3
       },
       {
         "horse_no": 8,
         "horse_name": "ドナデュボア",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 18.9,
-        "place_prob": 47.4
+        "win_prob": 18.8,
+        "place_prob": 47.1
       },
       {
         "horse_no": 1,
         "horse_name": "ブレイクネック",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 18.5,
-        "place_prob": 46.3
+        "win_prob": 18.8,
+        "place_prob": 46.9
       },
       {
         "horse_no": 4,
         "horse_name": "ワンカードフェロー",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 14.2,
-        "place_prob": 35.4
+        "win_prob": 14.1,
+        "place_prob": 35.2
       },
       {
         "horse_no": 7,
@@ -11631,15 +11631,15 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 8.3,
-        "place_prob": 20.7
+        "place_prob": 20.6
       },
       {
         "horse_no": 5,
         "horse_name": "コンチマカロン",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 3.6,
-        "place_prob": 9.1
+        "win_prob": 3.5,
+        "place_prob": 8.8
       },
       {
         "horse_no": 6,
@@ -11647,14 +11647,14 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 2.6,
-        "place_prob": 6.6
+        "place_prob": 6.5
       },
       {
         "horse_no": 3,
         "horse_name": "マイネルジュリアン",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 1.9,
+        "win_prob": 1.8,
         "place_prob": 4.6
       }
     ],
@@ -11932,7 +11932,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 21.5,
-        "place_prob": 53.9
+        "place_prob": 53.8
       },
       {
         "horse_no": 3,
@@ -11956,7 +11956,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 10.8,
-        "place_prob": 27.0
+        "place_prob": 26.9
       },
       {
         "horse_no": 5,
@@ -11971,8 +11971,8 @@
         "horse_name": "インカント",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 3.0,
-        "place_prob": 7.5
+        "win_prob": 3.1,
+        "place_prob": 7.7
       },
       {
         "horse_no": 2,
@@ -11989,56 +11989,56 @@
         "horse_name": "トモジャカトゥーラ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 24.3,
-        "place_prob": 60.8
+        "win_prob": 24.5,
+        "place_prob": 61.3
       },
       {
         "horse_no": 3,
         "horse_name": "トゥインクルピカ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 16.2,
-        "place_prob": 40.5
+        "win_prob": 16.1,
+        "place_prob": 40.2
       },
       {
         "horse_no": 1,
         "horse_name": "ロココ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 14.4,
-        "place_prob": 36.0
+        "win_prob": 14.3,
+        "place_prob": 35.7
       },
       {
         "horse_no": 7,
         "horse_name": "ミヤジマミコ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 13.4,
-        "place_prob": 33.4
+        "win_prob": 13.5,
+        "place_prob": 33.7
       },
       {
         "horse_no": 5,
         "horse_name": "ルクスアンジュ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 11.6,
-        "place_prob": 29.0
+        "win_prob": 11.7,
+        "place_prob": 29.1
       },
       {
         "horse_no": 4,
         "horse_name": "オーロクリューソス",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 10.6,
-        "place_prob": 26.5
+        "win_prob": 10.5,
+        "place_prob": 26.3
       },
       {
         "horse_no": 6,
         "horse_name": "インカント",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 6.8,
-        "place_prob": 16.9
+        "win_prob": 6.7,
+        "place_prob": 16.8
       },
       {
         "horse_no": 2,
@@ -12182,56 +12182,56 @@
         "horse_name": "オーシャンドリーム",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 18.2,
-        "place_prob": 45.6
+        "win_prob": 18.1,
+        "place_prob": 45.3
       },
       {
         "horse_no": 7,
         "horse_name": "エルリオ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 17.6,
-        "place_prob": 44.1
+        "win_prob": 18.0,
+        "place_prob": 45.1
       },
       {
         "horse_no": 11,
         "horse_name": "カンノンハヤテ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 16.1,
-        "place_prob": 40.2
+        "win_prob": 16.0,
+        "place_prob": 39.9
       },
       {
         "horse_no": 1,
         "horse_name": "ウェルックス",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 16.1,
-        "place_prob": 40.2
+        "win_prob": 16.0,
+        "place_prob": 39.9
       },
       {
         "horse_no": 3,
         "horse_name": "ナックステート",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 14.2,
-        "place_prob": 35.6
+        "win_prob": 14.1,
+        "place_prob": 35.3
       },
       {
         "horse_no": 4,
         "horse_name": "ファイヤーナイフ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 10.6,
-        "place_prob": 26.5
+        "win_prob": 10.5,
+        "place_prob": 26.3
       },
       {
         "horse_no": 5,
         "horse_name": "ニャンキニーズ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 6.4,
-        "place_prob": 16.1
+        "win_prob": 6.5,
+        "place_prob": 16.2
       },
       {
         "horse_no": 2,
@@ -12314,20 +12314,86 @@
         "horse_name": "ウェルックス",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 19.9,
-        "place_prob": 49.7
+        "win_prob": 19.7,
+        "place_prob": 49.3
       },
       {
         "horse_no": 9,
         "horse_name": "オーシャンドリーム",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 17.6,
-        "place_prob": 43.9
+        "win_prob": 17.4,
+        "place_prob": 43.5
       },
       {
         "horse_no": 7,
         "horse_name": "エルリオ",
+        "odds": 0.0,
+        "popularity": 999,
+        "win_prob": 17.2,
+        "place_prob": 43.0
+      },
+      {
+        "horse_no": 11,
+        "horse_name": "カンノンハヤテ",
+        "odds": 0.0,
+        "popularity": 999,
+        "win_prob": 16.1,
+        "place_prob": 40.2
+      },
+      {
+        "horse_no": 4,
+        "horse_name": "ファイヤーナイフ",
+        "odds": 0.0,
+        "popularity": 999,
+        "win_prob": 12.3,
+        "place_prob": 30.7
+      },
+      {
+        "horse_no": 3,
+        "horse_name": "ナックステート",
+        "odds": 0.0,
+        "popularity": 999,
+        "win_prob": 9.8,
+        "place_prob": 24.6
+      },
+      {
+        "horse_no": 5,
+        "horse_name": "ニャンキニーズ",
+        "odds": 0.0,
+        "popularity": 999,
+        "win_prob": 6.7,
+        "place_prob": 16.8
+      },
+      {
+        "horse_no": 2,
+        "horse_name": "ヤマミダイオウ",
+        "odds": 0.0,
+        "popularity": 999,
+        "win_prob": 0.8,
+        "place_prob": 1.9
+      }
+    ],
+    "predictions_v2b": [
+      {
+        "horse_no": 1,
+        "horse_name": "ウェルックス",
+        "odds": 0.0,
+        "popularity": 999,
+        "win_prob": 17.4,
+        "place_prob": 43.6
+      },
+      {
+        "horse_no": 4,
+        "horse_name": "ファイヤーナイフ",
+        "odds": 0.0,
+        "popularity": 999,
+        "win_prob": 16.6,
+        "place_prob": 41.5
+      },
+      {
+        "horse_no": 9,
+        "horse_name": "オーシャンドリーム",
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 16.3,
@@ -12338,78 +12404,12 @@
         "horse_name": "カンノンハヤテ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 16.2,
-        "place_prob": 40.5
-      },
-      {
-        "horse_no": 4,
-        "horse_name": "ファイヤーナイフ",
-        "odds": 0.0,
-        "popularity": 999,
-        "win_prob": 12.4,
-        "place_prob": 31.0
+        "win_prob": 15.1,
+        "place_prob": 37.9
       },
       {
         "horse_no": 3,
         "horse_name": "ナックステート",
-        "odds": 0.0,
-        "popularity": 999,
-        "win_prob": 10.1,
-        "place_prob": 25.2
-      },
-      {
-        "horse_no": 5,
-        "horse_name": "ニャンキニーズ",
-        "odds": 0.0,
-        "popularity": 999,
-        "win_prob": 6.8,
-        "place_prob": 16.9
-      },
-      {
-        "horse_no": 2,
-        "horse_name": "ヤマミダイオウ",
-        "odds": 0.0,
-        "popularity": 999,
-        "win_prob": 0.8,
-        "place_prob": 2.0
-      }
-    ],
-    "predictions_v2b": [
-      {
-        "horse_no": 1,
-        "horse_name": "ウェルックス",
-        "odds": 0.0,
-        "popularity": 999,
-        "win_prob": 17.3,
-        "place_prob": 43.4
-      },
-      {
-        "horse_no": 4,
-        "horse_name": "ファイヤーナイフ",
-        "odds": 0.0,
-        "popularity": 999,
-        "win_prob": 16.8,
-        "place_prob": 41.9
-      },
-      {
-        "horse_no": 9,
-        "horse_name": "オーシャンドリーム",
-        "odds": 0.0,
-        "popularity": 999,
-        "win_prob": 16.5,
-        "place_prob": 41.2
-      },
-      {
-        "horse_no": 3,
-        "horse_name": "ナックステート",
-        "odds": 0.0,
-        "popularity": 999,
-        "win_prob": 15.2,
-        "place_prob": 38.1
-      },
-      {
-        "horse_no": 11,
-        "horse_name": "カンノンハヤテ",
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 15.0,
@@ -12420,16 +12420,16 @@
         "horse_name": "エルリオ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 12.0,
-        "place_prob": 30.1
+        "win_prob": 12.5,
+        "place_prob": 31.2
       },
       {
         "horse_no": 5,
         "horse_name": "ニャンキニーズ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 6.5,
-        "place_prob": 16.2
+        "win_prob": 6.3,
+        "place_prob": 15.9
       },
       {
         "horse_no": 2,
@@ -12573,48 +12573,48 @@
         "horse_name": "オラヴェリタス",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 26.5,
-        "place_prob": 66.2
+        "win_prob": 26.2,
+        "place_prob": 65.4
       },
       {
         "horse_no": 5,
         "horse_name": "ピースオーシャン",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 25.1,
-        "place_prob": 62.7
+        "win_prob": 25.8,
+        "place_prob": 64.6
       },
       {
         "horse_no": 7,
         "horse_name": "セッカチケーン",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 17.9,
-        "place_prob": 44.7
+        "win_prob": 17.7,
+        "place_prob": 44.2
       },
       {
         "horse_no": 2,
         "horse_name": "シントーツバキ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 14.0,
-        "place_prob": 34.9
+        "win_prob": 13.8,
+        "place_prob": 34.4
       },
       {
         "horse_no": 9,
         "horse_name": "ゴールドレコーダー",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 7.4,
-        "place_prob": 18.5
+        "win_prob": 7.3,
+        "place_prob": 18.3
       },
       {
         "horse_no": 1,
         "horse_name": "モニュメントキング",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 6.2,
-        "place_prob": 15.4
+        "win_prob": 6.1,
+        "place_prob": 15.3
       },
       {
         "horse_no": 3,
@@ -12622,7 +12622,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 1.9,
-        "place_prob": 4.7
+        "place_prob": 4.8
       },
       {
         "horse_no": 4,
@@ -12630,7 +12630,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 1.2,
-        "place_prob": 3.0
+        "place_prob": 2.9
       }
     ],
     "predictions_a": [
@@ -12648,7 +12648,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 13.2,
-        "place_prob": 33.1
+        "place_prob": 33.0
       },
       {
         "horse_no": 7,
@@ -12663,7 +12663,7 @@
         "horse_name": "ピースオーシャン",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 13.2,
+        "win_prob": 13.1,
         "place_prob": 32.9
       },
       {
@@ -12680,7 +12680,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 11.2,
-        "place_prob": 28.1
+        "place_prob": 28.0
       },
       {
         "horse_no": 4,
@@ -12695,8 +12695,8 @@
         "horse_name": "ダンナイ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 10.7,
-        "place_prob": 26.7
+        "win_prob": 10.8,
+        "place_prob": 27.0
       }
     ],
     "predictions_s5": [
@@ -12705,40 +12705,40 @@
         "horse_name": "オラヴェリタス",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 25.2,
-        "place_prob": 63.0
+        "win_prob": 25.1,
+        "place_prob": 62.8
       },
       {
         "horse_no": 5,
         "horse_name": "ピースオーシャン",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 23.8,
-        "place_prob": 59.6
+        "win_prob": 24.6,
+        "place_prob": 61.5
       },
       {
         "horse_no": 7,
         "horse_name": "セッカチケーン",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 18.0,
-        "place_prob": 44.9
+        "win_prob": 17.8,
+        "place_prob": 44.5
       },
       {
         "horse_no": 2,
         "horse_name": "シントーツバキ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 14.3,
-        "place_prob": 35.8
+        "win_prob": 14.0,
+        "place_prob": 34.9
       },
       {
         "horse_no": 9,
         "horse_name": "ゴールドレコーダー",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 10.2,
-        "place_prob": 25.5
+        "win_prob": 10.1,
+        "place_prob": 25.2
       },
       {
         "horse_no": 1,
@@ -12746,7 +12746,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 5.5,
-        "place_prob": 13.8
+        "place_prob": 13.7
       },
       {
         "horse_no": 3,
@@ -12762,7 +12762,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 1.0,
-        "place_prob": 2.6
+        "place_prob": 2.5
       }
     ],
     "predictions_v2b": [
@@ -12771,32 +12771,32 @@
         "horse_name": "オラヴェリタス",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 25.9,
-        "place_prob": 64.8
+        "win_prob": 26.2,
+        "place_prob": 65.5
       },
       {
         "horse_no": 5,
         "horse_name": "ピースオーシャン",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 24.4,
-        "place_prob": 61.1
+        "win_prob": 23.3,
+        "place_prob": 58.1
       },
       {
         "horse_no": 7,
         "horse_name": "セッカチケーン",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 19.7,
-        "place_prob": 49.2
+        "win_prob": 19.8,
+        "place_prob": 49.6
       },
       {
         "horse_no": 2,
         "horse_name": "シントーツバキ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 15.3,
-        "place_prob": 38.4
+        "win_prob": 16.2,
+        "place_prob": 40.5
       },
       {
         "horse_no": 9,
@@ -12804,15 +12804,15 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 8.5,
-        "place_prob": 21.2
+        "place_prob": 21.3
       },
       {
         "horse_no": 1,
         "horse_name": "モニュメントキング",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 3.9,
-        "place_prob": 9.8
+        "win_prob": 3.8,
+        "place_prob": 9.5
       },
       {
         "horse_no": 3,
@@ -12965,7 +12965,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 31.4,
-        "place_prob": 78.5
+        "place_prob": 78.4
       },
       {
         "horse_no": 6,
@@ -12973,7 +12973,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 22.7,
-        "place_prob": 56.8
+        "place_prob": 56.7
       },
       {
         "horse_no": 7,
@@ -12981,15 +12981,15 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 13.7,
-        "place_prob": 34.3
+        "place_prob": 34.2
       },
       {
         "horse_no": 8,
         "horse_name": "アスターディンブラ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 10.7,
-        "place_prob": 26.7
+        "win_prob": 10.8,
+        "place_prob": 27.0
       },
       {
         "horse_no": 4,
@@ -13012,7 +13012,7 @@
         "horse_name": "ブラストバローズ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 5.4,
+        "win_prob": 5.3,
         "place_prob": 13.4
       },
       {
@@ -13162,24 +13162,24 @@
         "horse_name": "ペガサスターボ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 26.7,
-        "place_prob": 66.8
+        "win_prob": 27.0,
+        "place_prob": 67.6
       },
       {
         "horse_no": 6,
         "horse_name": "ビスクウィザード",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 25.2,
-        "place_prob": 63.0
+        "win_prob": 25.1,
+        "place_prob": 62.8
       },
       {
         "horse_no": 8,
         "horse_name": "アスターディンブラ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 15.1,
-        "place_prob": 37.6
+        "win_prob": 14.9,
+        "place_prob": 37.2
       },
       {
         "horse_no": 7,
@@ -13187,7 +13187,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 12.6,
-        "place_prob": 31.5
+        "place_prob": 31.4
       },
       {
         "horse_no": 1,
@@ -13195,15 +13195,15 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 7.3,
-        "place_prob": 18.2
+        "place_prob": 18.1
       },
       {
         "horse_no": 5,
         "horse_name": "アンクルサンダー",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 6.9,
-        "place_prob": 17.2
+        "win_prob": 6.8,
+        "place_prob": 17.1
       },
       {
         "horse_no": 4,
@@ -13211,7 +13211,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 5.0,
-        "place_prob": 12.6
+        "place_prob": 12.5
       },
       {
         "horse_no": 2,
@@ -13356,47 +13356,47 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 31.7,
-        "place_prob": 79.4
-      },
-      {
-        "horse_no": 7,
-        "horse_name": "ライクシュガー",
-        "odds": 0.0,
-        "popularity": 999,
-        "win_prob": 14.4,
-        "place_prob": 35.9
+        "place_prob": 79.2
       },
       {
         "horse_no": 5,
         "horse_name": "ケーズコマクサ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 14.2,
-        "place_prob": 35.6
+        "win_prob": 15.9,
+        "place_prob": 39.8
       },
       {
         "horse_no": 1,
         "horse_name": "グリーゼ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 12.8,
-        "place_prob": 32.0
+        "win_prob": 12.7,
+        "place_prob": 31.8
+      },
+      {
+        "horse_no": 7,
+        "horse_name": "ライクシュガー",
+        "odds": 0.0,
+        "popularity": 999,
+        "win_prob": 12.6,
+        "place_prob": 31.4
       },
       {
         "horse_no": 4,
         "horse_name": "ダンシングアウェイ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 11.2,
-        "place_prob": 28.0
+        "win_prob": 11.5,
+        "place_prob": 28.9
       },
       {
         "horse_no": 3,
         "horse_name": "ベラジオスパーク",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 5.4,
-        "place_prob": 13.4
+        "win_prob": 5.3,
+        "place_prob": 13.3
       },
       {
         "horse_no": 2,
@@ -13404,7 +13404,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 5.2,
-        "place_prob": 13.0
+        "place_prob": 12.9
       },
       {
         "horse_no": 9,
@@ -13412,7 +13412,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 5.1,
-        "place_prob": 12.8
+        "place_prob": 12.7
       }
     ],
     "predictions_a": [
@@ -13487,40 +13487,40 @@
         "horse_name": "ドレドレ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 29.7,
-        "place_prob": 74.2
+        "win_prob": 30.1,
+        "place_prob": 75.2
       },
       {
         "horse_no": 5,
         "horse_name": "ケーズコマクサ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 15.9,
-        "place_prob": 39.8
+        "win_prob": 16.7,
+        "place_prob": 41.7
       },
       {
         "horse_no": 1,
         "horse_name": "グリーゼ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 15.0,
-        "place_prob": 37.6
+        "win_prob": 15.2,
+        "place_prob": 38.0
       },
       {
         "horse_no": 7,
         "horse_name": "ライクシュガー",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 13.8,
-        "place_prob": 34.5
+        "win_prob": 11.8,
+        "place_prob": 29.5
       },
       {
         "horse_no": 4,
         "horse_name": "ダンシングアウェイ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 9.9,
-        "place_prob": 24.7
+        "win_prob": 10.3,
+        "place_prob": 25.8
       },
       {
         "horse_no": 2,
@@ -13528,23 +13528,23 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 5.8,
-        "place_prob": 14.4
+        "place_prob": 14.6
       },
       {
         "horse_no": 3,
         "horse_name": "ベラジオスパーク",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 5.6,
-        "place_prob": 14.0
+        "win_prob": 5.7,
+        "place_prob": 14.2
       },
       {
         "horse_no": 9,
         "horse_name": "ムムターズショコラ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 4.3,
-        "place_prob": 10.9
+        "win_prob": 4.4,
+        "place_prob": 11.0
       }
     ],
     "predictions_v2b": [
@@ -13553,64 +13553,64 @@
         "horse_name": "ドレドレ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 22.6,
-        "place_prob": 56.5
+        "win_prob": 23.0,
+        "place_prob": 57.6
       },
       {
         "horse_no": 5,
         "horse_name": "ケーズコマクサ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 18.2,
-        "place_prob": 45.6
+        "win_prob": 18.4,
+        "place_prob": 46.0
       },
       {
         "horse_no": 7,
         "horse_name": "ライクシュガー",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 15.7,
-        "place_prob": 39.2
+        "win_prob": 15.8,
+        "place_prob": 39.6
       },
       {
         "horse_no": 4,
         "horse_name": "ダンシングアウェイ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 15.5,
-        "place_prob": 38.7
+        "win_prob": 14.5,
+        "place_prob": 36.2
       },
       {
         "horse_no": 1,
         "horse_name": "グリーゼ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 10.2,
-        "place_prob": 25.5
+        "win_prob": 10.3,
+        "place_prob": 25.8
       },
       {
         "horse_no": 9,
         "horse_name": "ムムターズショコラ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 7.1,
-        "place_prob": 17.6
+        "win_prob": 7.0,
+        "place_prob": 17.4
       },
       {
         "horse_no": 3,
         "horse_name": "ベラジオスパーク",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 6.4,
-        "place_prob": 16.1
+        "win_prob": 6.6,
+        "place_prob": 16.4
       },
       {
         "horse_no": 2,
         "horse_name": "パッションビート",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 4.3,
-        "place_prob": 10.8
+        "win_prob": 4.4,
+        "place_prob": 10.9
       }
     ],
     "predictions_v2a": [
@@ -13734,24 +13734,24 @@
         "horse_name": "ファイントパーズ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 53.2,
-        "place_prob": 133.0
+        "win_prob": 53.0,
+        "place_prob": 132.4
       },
       {
         "horse_no": 5,
         "horse_name": "カズロレアート",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 15.7,
-        "place_prob": 39.2
+        "win_prob": 15.6,
+        "place_prob": 39.0
       },
       {
         "horse_no": 1,
         "horse_name": "マニーヒーロー",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 14.7,
-        "place_prob": 36.7
+        "win_prob": 15.0,
+        "place_prob": 37.6
       },
       {
         "horse_no": 6,
@@ -13759,7 +13759,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 11.7,
-        "place_prob": 29.8
+        "place_prob": 29.6
       },
       {
         "horse_no": 2,
@@ -13774,8 +13774,8 @@
         "horse_name": "サノプリ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 2.1,
-        "place_prob": 5.5
+        "win_prob": 2.0,
+        "place_prob": 5.4
       }
     ],
     "predictions_a": [
@@ -13835,14 +13835,14 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 50.0,
-        "place_prob": 125.0
+        "place_prob": 125.1
       },
       {
         "horse_no": 5,
         "horse_name": "カズロレアート",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 19.7,
+        "win_prob": 19.8,
         "place_prob": 49.4
       },
       {
@@ -13851,7 +13851,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 14.0,
-        "place_prob": 35.1
+        "place_prob": 35.0
       },
       {
         "horse_no": 6,
@@ -13884,40 +13884,40 @@
         "horse_name": "ファイントパーズ",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 30.0,
-        "place_prob": 74.9
+        "win_prob": 30.8,
+        "place_prob": 77.0
       },
       {
         "horse_no": 1,
         "horse_name": "マニーヒーロー",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 26.0,
-        "place_prob": 65.0
+        "win_prob": 24.6,
+        "place_prob": 61.4
       },
       {
         "horse_no": 5,
         "horse_name": "カズロレアート",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 20.9,
-        "place_prob": 52.2
+        "win_prob": 21.2,
+        "place_prob": 53.0
       },
       {
         "horse_no": 6,
         "horse_name": "タルバン",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 15.2,
-        "place_prob": 38.0
+        "win_prob": 15.4,
+        "place_prob": 38.5
       },
       {
         "horse_no": 2,
         "horse_name": "エコロブレード",
         "odds": 0.0,
         "popularity": 999,
-        "win_prob": 4.1,
-        "place_prob": 10.3
+        "win_prob": 4.2,
+        "place_prob": 10.5
       },
       {
         "horse_no": 3,
@@ -13925,7 +13925,7 @@
         "odds": 0.0,
         "popularity": 999,
         "win_prob": 3.8,
-        "place_prob": 9.5
+        "place_prob": 9.6
       }
     ],
     "predictions_v2a": [
